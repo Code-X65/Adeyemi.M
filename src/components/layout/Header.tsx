@@ -207,10 +207,9 @@ export function Header() {
                 if (isOpen) handleClose();
               }}
             >
-              <div className="relative w-10 h-10 rounded-lg overflow-hidden border-2 border-on-surface bg-surface-container-low shadow-[2px_2px_0px_0px_#202c31] flex items-center justify-center group-hover:translate-x-0.5 group-hover:translate-y-0.5 group-hover:shadow-none transition-all flex-shrink-0">
-                <img src="/favicon.svg" alt="Engr. Adeyemi M. Favicon" className="w-7 h-7 object-contain" />
-                <span className="absolute top-1 right-1 w-2 h-2 rounded-full bg-primary animate-ping" />
-                <span className="absolute top-1 right-1 w-2 h-2 rounded-full bg-primary" />
+              <div className="relative w-10 h-10 rounded-full overflow-hidden border-2 border-on-surface bg-surface-container-low shadow-[2px_2px_0px_0px_#202c31] flex items-center justify-center group-hover:translate-x-0.5 group-hover:translate-y-0.5 group-hover:shadow-none transition-all flex-shrink-0">
+                <img src="/favicon-32x32.png" alt="Engr. Adeyemi M." className="w-full h-full object-cover" />
+                <span className="absolute top-0 right-0 w-2.5 h-2.5 rounded-full bg-emerald-500 border border-white animate-pulse" />
               </div>
               <div className="flex flex-col">
                 <span className="font-title text-title tracking-tight text-on-surface uppercase font-bold group-hover:text-primary transition-colors">
