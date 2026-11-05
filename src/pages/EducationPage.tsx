@@ -300,30 +300,6 @@ export function EducationPage() {
                   </div>
                 </div>
 
-                {/* Cert 4: HSE / Site Safety */}
-                <div className="bg-surface-container-lowest border border-surface-dim p-space-lg flex flex-col justify-between shadow-neo-light hover:shadow-neo transition-all group">
-                  <div>
-                    <div className="flex items-center justify-between pb-space-xs border-b border-surface-dim mb-space-sm">
-                      <span className="font-label-technical text-label-technical uppercase text-secondary">
-                        Safety Directive
-                      </span>
-                      <span className="material-symbols-outlined text-primary-container text-[22px]">health_and_safety</span>
-                    </div>
-                    <h3 className="font-title text-title font-bold text-on-surface mb-1">
-                      Occupational Health &amp; Site Safety (HSE)
-                    </h3>
-                    <p className="font-body-sm text-body-sm text-secondary mb-space-sm font-semibold">
-                      Construction Safety Protocols (Level 3)
-                    </p>
-                    <p className="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
-                      Certified oversight for excavations, deep shoring, crane operations, working at heights, and site emergency hazard drills.
-                    </p>
-                  </div>
-                  <div className="mt-space-md pt-space-xs border-t border-surface-dim flex items-center justify-between">
-                    <span className="font-label-technical text-label-technical text-secondary uppercase">Compliance</span>
-                    <span className="font-label-technical text-label-technical font-bold text-primary uppercase">HSE Certified</span>
-                  </div>
-                </div>
 
                 {/* Cert 5: Structural Concrete & Materials Testing */}
                 <div className="bg-surface-container-lowest border border-surface-dim p-space-lg flex flex-col justify-between shadow-neo-light hover:shadow-neo transition-all group">

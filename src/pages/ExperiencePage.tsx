@@ -84,7 +84,7 @@ const experiences: ExperienceItem[] = [
     currentRole: false,
     company: 'Ogun State Road Management Agency (OGROMA)',
     role: 'Site Engineer (NYSC)',
-    period: '2013 — 2014',
+    period: '2012 — 2013',
     location: 'Ogun State, Nigeria',
     overview: 'Supported public infrastructure road construction, safety compliance, materials management, and quality control on behalf of the state road authority.',
     responsibilities: [
@@ -110,7 +110,7 @@ const experiences: ExperienceItem[] = [
     currentRole: false,
     company: 'Ministry of Works and Infrastructures',
     role: 'Industrial Trainee Site Engineer',
-    period: '2013 — 2014',
+    period: '2012 — 2013',
     location: 'Alausa, Ikeja, Lagos State, Nigeria',
     overview: 'Conducted site surveys, soil investigations, and supported municipal engineering project supervision under senior resident civil engineers.',
     responsibilities: [
@@ -123,7 +123,6 @@ const experiences: ExperienceItem[] = [
     ],
     deliverables: [
       'Site Survey & Soil Investigation Reports',
-      'HSE Site Compliance Audits',
       'Daily Engineering Progress Logs',
       'Municipal Infrastructure Reviews'
     ]

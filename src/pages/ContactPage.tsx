@@ -1,8 +1,16 @@
 import { useState } from 'react';
 
+interface DispatchLinks {
+  ticket: string;
+  whatsappUrl: string;
+  mailtoUrl: string;
+  summaryText: string;
+}
+
 export function ContactPage() {
   const [copiedEmail, setCopiedEmail] = useState(false);
   const [copiedAddress, setCopiedAddress] = useState(false);
+  const [copiedSummary, setCopiedSummary] = useState(false);
   const [formData, setFormData] = useState({
     name: '',
     email: '',
@@ -14,6 +22,7 @@ export function ContactPage() {
   });
   const [submitting, setSubmitting] = useState(false);
   const [submittedTicket, setSubmittedTicket] = useState<string | null>(null);
+  const [dispatchLinks, setDispatchLinks] = useState<DispatchLinks | null>(null);
 
   const handleCopyEmail = () => {
     navigator.clipboard.writeText('adeyemimodupeola02@yahoo.com');
@@ -27,19 +36,54 @@ export function ContactPage() {
     setTimeout(() => setCopiedAddress(false), 2500);
   };
 
+  const handleCopySummary = () => {
+    if (!dispatchLinks) return;
+    navigator.clipboard.writeText(dispatchLinks.summaryText);
+    setCopiedSummary(true);
+    setTimeout(() => setCopiedSummary(false), 2500);
+  };
+
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     setSubmitting(true);
 
     setTimeout(() => {
       const ticketNumber = `AIM-CE-${Math.floor(100000 + Math.random() * 900000)}`;
+
+      const waMessage = `Hello Engr. Adeyemi,\n\nI have logged a formal civil engineering consultation inquiry.\n\n*Reference ID:* ${ticketNumber}\n*Lead Contact:* ${formData.name}\n*Organization:* ${formData.organization || 'Independent Development'}\n*Email:* ${formData.email}\n*Phone:* ${formData.phone || 'N/A'}\n*Discipline:* ${formData.serviceCategory}\n*Site Location:* ${formData.projectLocation || 'N/A'}\n\n*Scope of Inquiry:*\n${formData.message}`;
+
+      const waUrl = `https://wa.me/2348162859086?text=${encodeURIComponent(waMessage)}`;
+
+      const mailtoSubject = `[Consultation Ticket ${ticketNumber}] - ${formData.serviceCategory} - ${formData.name}`;
+      const mailtoBody = `Dear Engr. Adeyemi Idowu Modupeola,\n\nPlease find the details of my civil engineering consultation inquiry below:\n\nReference ID: ${ticketNumber}\nLead Contact: ${formData.name}\nOrganization: ${formData.organization || 'Independent Development'}\nEmail: ${formData.email}\nPhone: ${formData.phone || 'N/A'}\nDiscipline: ${formData.serviceCategory}\nSite Location: ${formData.projectLocation || 'N/A'}\n\nScope of Inquiry:\n${formData.message}\n\nBest regards,\n${formData.name}`;
+      const mailtoUrl = `mailto:adeyemimodupeola02@yahoo.com?subject=${encodeURIComponent(mailtoSubject)}&body=${encodeURIComponent(mailtoBody)}`;
+
+      const summary = `CIVIL ENGINEERING CONSULTATION DOSSIER
+Reference Ticket: ${ticketNumber}
+Lead Engineer/Client: ${formData.name}
+Organization: ${formData.organization || 'Independent Development'}
+Email: ${formData.email}
+Phone: ${formData.phone || 'N/A'}
+Service Area: ${formData.serviceCategory}
+Site Location: ${formData.projectLocation || 'N/A'}
+Scope of Work: ${formData.message}`;
+
+      setDispatchLinks({
+        ticket: ticketNumber,
+        whatsappUrl: waUrl,
+        mailtoUrl: mailtoUrl,
+        summaryText: summary,
+      });
+
       setSubmittedTicket(ticketNumber);
       setSubmitting(false);
-    }, 800);
+    }, 700);
   };
 
   const handleReset = () => {
     setSubmittedTicket(null);
+    setDispatchLinks(null);
+    setCopiedSummary(false);
     setFormData({
       name: '',
       email: '',
@@ -293,17 +337,65 @@ export function ContactPage() {
                         </div>
                       </div>
 
-                      <p className="font-body-md text-body-md text-on-surface-variant leading-relaxed">
-                        Thank you for reaching out. Your technical consultation inquiry has been routed to Engr. Adeyemi Idowu Modupeola&apos;s direct desk. A formal engineering appraisal and dispatch response will be transmitted to <strong>{formData.email}</strong> within 24–48 business hours.
-                      </p>
+                      <div className="w-full bg-surface-container p-space-md border border-surface-dim space-y-3">
+                        <div className="flex items-center gap-2">
+                          <span className="w-2.5 h-2.5 rounded-full bg-emerald-500 animate-pulse"></span>
+                          <span className="font-label-technical text-label-technical uppercase font-bold text-on-surface">
+                            Direct Dispatch Channels Ready
+                          </span>
+                        </div>
+                        <p className="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+                          Your technical consultation dossier is compiled under reference <strong>{submittedTicket}</strong>. Send it directly to Engr. Adeyemi via WhatsApp for immediate response, or launch your email client with the pre-filled inquiry.
+                        </p>
 
-                      <button
-                        type="button"
-                        onClick={handleReset}
-                        className="mt-space-sm px-space-lg py-space-sm bg-on-tertiary-container text-surface-container-lowest font-label-lg text-label-lg uppercase tracking-wider border border-on-tertiary-container shadow-neo-sm hover:bg-primary-container hover:text-on-primary transition-all"
-                      >
-                        Submit Another Inquiry
-                      </button>
+                        <div className="flex flex-wrap items-center gap-space-sm pt-1">
+                          {dispatchLinks?.whatsappUrl && (
+                            <a
+                              href={dispatchLinks.whatsappUrl}
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              className="inline-flex items-center gap-2 px-space-md py-2.5 bg-emerald-600 text-white font-label-lg text-label-lg uppercase tracking-wider font-semibold shadow-neo-sm hover:bg-emerald-700 hover:shadow-neo active:translate-x-0.5 active:translate-y-0.5 transition-all"
+                            >
+                              <span className="material-symbols-outlined text-[18px]">chat</span>
+                              <span>Dispatch via WhatsApp</span>
+                            </a>
+                          )}
+
+                          {dispatchLinks?.mailtoUrl && (
+                            <a
+                              href={dispatchLinks.mailtoUrl}
+                              className="inline-flex items-center gap-2 px-space-md py-2.5 bg-primary-container text-on-primary font-label-lg text-label-lg uppercase tracking-wider font-semibold border border-on-tertiary-container shadow-neo-sm hover:bg-on-tertiary-container hover:shadow-neo active:translate-x-0.5 active:translate-y-0.5 transition-all"
+                            >
+                              <span className="material-symbols-outlined text-[18px]">mail</span>
+                              <span>Send via Email Client</span>
+                            </a>
+                          )}
+
+                          <button
+                            type="button"
+                            onClick={handleCopySummary}
+                            className="inline-flex items-center gap-1.5 px-space-md py-2.5 bg-surface-container-lowest text-on-surface font-label-technical text-label-technical uppercase tracking-wider border border-surface-dim hover:bg-surface-container-high transition-colors"
+                          >
+                            <span className="material-symbols-outlined text-[16px] text-secondary">
+                              {copiedSummary ? 'check' : 'content_copy'}
+                            </span>
+                            <span>{copiedSummary ? 'Dossier Copied!' : 'Copy Summary'}</span>
+                          </button>
+                        </div>
+                      </div>
+
+                      <div className="pt-space-xs flex flex-wrap items-center justify-between gap-space-sm w-full border-t border-surface-dim">
+                        <span className="font-label-technical text-label-technical text-secondary uppercase">
+                          Routing: adeyemimodupeola02@yahoo.com // +234 816 285 9086
+                        </span>
+                        <button
+                          type="button"
+                          onClick={handleReset}
+                          className="font-label-technical text-label-technical uppercase tracking-wider text-primary font-bold hover:underline"
+                        >
+                          Log New Inquiry &rarr;
+                        </button>
+                      </div>
                     </div>
                   ) : (
                     /* Active Consultation Form */
