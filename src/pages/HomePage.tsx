@@ -274,6 +274,114 @@ export function HomePage() {
             </div>
           </section>
 
+          {/* Field Project & Inspection Gallery Preview */}
+          <section className="bg-surface-container-low border border-surface-dim p-space-lg space-y-space-md">
+            <div className="flex flex-col md:flex-row md:items-end justify-between gap-space-md pb-space-sm border-b border-surface-dim">
+              <div>
+                <div className="flex items-center gap-2 mb-1">
+                  <span className="w-2 h-2 bg-primary-container inline-block"></span>
+                  <span className="font-label-technical text-label-technical uppercase tracking-widest text-secondary">
+                    PHOTOGRAPHIC ARCHIVE
+                  </span>
+                </div>
+                <h3 className="font-headline-sm text-headline-sm font-bold text-on-surface uppercase tracking-tight">
+                  Field Project &amp; Inspection Gallery
+                </h3>
+                <p className="font-body-sm text-body-sm text-on-surface-variant max-w-xl mt-1">
+                  Verified photographic logs of structural framework, rebar quality assurance, and heavy continuous concrete casting.
+                </p>
+              </div>
+
+              <Link
+                to="/gallery"
+                className="inline-flex items-center gap-2 bg-on-tertiary-container text-on-tertiary font-label-technical text-xs uppercase tracking-wider px-space-md py-2.5 border border-on-tertiary-container shadow-neo-sm hover:bg-primary-container hover:shadow-neo transition-all"
+              >
+                <span>View All 12 Field Records</span>
+                <span className="material-symbols-outlined text-[16px]">arrow_forward</span>
+              </Link>
+            </div>
+
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 pt-2">
+              {/* Preview Card 1 */}
+              <Link
+                to="/gallery"
+                className="group relative bg-surface-container-lowest border border-surface-dim overflow-hidden shadow-neo-light hover:shadow-neo transition-all"
+              >
+                <div className="relative aspect-[16/10] overflow-hidden bg-surface-container">
+                  <img
+                    src="/assets/gallery/thumbs/project-site-01.webp"
+                    alt="Elevated Rail Transit Station Terminal"
+                    loading="lazy"
+                    className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                  />
+                  <div className="absolute top-2 left-2 bg-on-tertiary-container/90 text-on-tertiary px-2 py-0.5 font-label-technical text-[10px] uppercase tracking-wider">
+                    01 // On-Site
+                  </div>
+                </div>
+                <div className="p-3">
+                  <h4 className="font-title text-xs sm:text-sm font-bold uppercase text-on-surface group-hover:text-primary transition-colors line-clamp-1">
+                    Elevated Rail Station Terminal
+                  </h4>
+                  <p className="font-label-technical text-[11px] text-secondary uppercase mt-0.5">
+                    CCECC Rail Corridor, Lagos
+                  </p>
+                </div>
+              </Link>
+
+              {/* Preview Card 2 */}
+              <Link
+                to="/gallery"
+                className="group relative bg-surface-container-lowest border border-surface-dim overflow-hidden shadow-neo-light hover:shadow-neo transition-all"
+              >
+                <div className="relative aspect-[16/10] overflow-hidden bg-surface-container">
+                  <img
+                    src="/assets/gallery/thumbs/project-site-08.webp"
+                    alt="Drainage Culvert Rebar & Excavation Staging"
+                    loading="lazy"
+                    className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                  />
+                  <div className="absolute top-2 left-2 bg-on-tertiary-container/90 text-on-tertiary px-2 py-0.5 font-label-technical text-[10px] uppercase tracking-wider">
+                    08 // Inspections
+                  </div>
+                </div>
+                <div className="p-3">
+                  <h4 className="font-title text-xs sm:text-sm font-bold uppercase text-on-surface group-hover:text-primary transition-colors line-clamp-1">
+                    Drainage Culvert Rebar QA
+                  </h4>
+                  <p className="font-label-technical text-[11px] text-secondary uppercase mt-0.5">
+                    Y25 High-Yield Reinforcement Check
+                  </p>
+                </div>
+              </Link>
+
+              {/* Preview Card 3 */}
+              <Link
+                to="/gallery"
+                className="group relative bg-surface-container-lowest border border-surface-dim overflow-hidden shadow-neo-light hover:shadow-neo transition-all sm:col-span-2 lg:col-span-1"
+              >
+                <div className="relative aspect-[16/10] overflow-hidden bg-surface-container">
+                  <img
+                    src="/assets/gallery/thumbs/project-site-12.webp"
+                    alt="Bridge Deck Continuous Monolithic Concrete Pour"
+                    loading="lazy"
+                    className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                  />
+                  <div className="absolute top-2 left-2 bg-on-tertiary-container/90 text-on-tertiary px-2 py-0.5 font-label-technical text-[10px] uppercase tracking-wider">
+                    12 // Testing
+                  </div>
+                </div>
+                <div className="p-3">
+                  <h4 className="font-title text-xs sm:text-sm font-bold uppercase text-on-surface group-hover:text-primary transition-colors line-clamp-1">
+                    Monolithic Bridge Deck Pour
+                  </h4>
+                  <p className="font-label-technical text-[11px] text-secondary uppercase mt-0.5">
+                    Grade C35/45 Ready-Mix QA
+                  </p>
+                </div>
+              </Link>
+            </div>
+          </section>
+
           {/* Call to Action Banner */}
           <section className="bg-on-tertiary-container text-on-primary p-space-lg md:p-space-xl border border-on-tertiary-container relative overflow-hidden shadow-neo">
             <div className="absolute top-0 left-0 right-0 h-1.5 bg-primary-container"></div>

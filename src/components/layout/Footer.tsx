@@ -46,13 +46,18 @@ export function Footer() {
                 </Link>
               </li>
               <li className="list-none">
+                <Link to="/gallery" className="font-body-sm text-body-sm text-on-surface-variant hover:text-primary uppercase tracking-wider transition-colors">
+                  04. Field Project Gallery
+                </Link>
+              </li>
+              <li className="list-none">
                 <Link to="/education" className="font-body-sm text-body-sm text-on-surface-variant hover:text-primary uppercase tracking-wider transition-colors">
-                  04. Education &amp; Credentials
+                  05. Education &amp; Credentials
                 </Link>
               </li>
               <li className="list-none">
                 <Link to="/contact" className="font-body-sm text-body-sm text-on-surface-variant hover:text-primary uppercase tracking-wider transition-colors">
-                  05. Formal Consultation
+                  06. Formal Consultation
                 </Link>
               </li>
             </ul>

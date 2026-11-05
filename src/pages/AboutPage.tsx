@@ -522,6 +522,31 @@ export function AboutPage() {
             </div>
           </section>
 
+          {/* FIELD PROJECT & INSPECTION GALLERY BANNER */}
+          <section className="bg-surface-container-low border border-surface-dim p-space-lg flex flex-col md:flex-row md:items-center justify-between gap-space-md shadow-neo-light">
+            <div className="space-y-1">
+              <div className="flex items-center gap-2">
+                <span className="w-2 h-2 bg-primary-container inline-block"></span>
+                <span className="font-label-technical text-label-technical uppercase tracking-widest text-secondary">
+                  FIELD PHOTOGRAPHY ARCHIVE
+                </span>
+              </div>
+              <h3 className="font-title text-title font-bold text-on-surface uppercase">
+                Explore The Field Project &amp; Inspection Gallery
+              </h3>
+              <p className="font-body-sm text-body-sm text-on-surface-variant max-w-xl">
+                Browse 12 high-resolution documentary site photos covering heavy rail formwork, rebar inspections, and materials testing.
+              </p>
+            </div>
+            <Link
+              to="/gallery"
+              className="inline-flex items-center gap-2 bg-primary-container text-on-primary font-label-technical text-xs uppercase tracking-wider px-space-md py-3 border border-primary-container shadow-neo hover:bg-on-tertiary-container transition-all flex-shrink-0"
+            >
+              <span>Open Field Gallery</span>
+              <span className="material-symbols-outlined text-[18px]">photo_library</span>
+            </Link>
+          </section>
+
           {/* 6. CLOSING CALL-TO-ACTION */}
           <section className="bg-on-tertiary-container text-on-primary p-space-lg md:p-space-xl border border-on-tertiary-container relative overflow-hidden shadow-neo">
             <div className="absolute top-0 left-0 right-0 h-1 bg-primary-container"></div>

@@ -13,8 +13,9 @@ const navItems: NavItem[] = [
   { num: '01', label: 'Home', path: '/', desc: 'Overview, credentials & core metrics' },
   { num: '02', label: 'About', path: '/about', desc: 'Engineering profile, philosophy & capabilities' },
   { num: '03', label: 'Experience', path: '/experience', desc: 'CCECC, Hi-Tech & infrastructure track record' },
-  { num: '04', label: 'Education', path: '/education', desc: 'LAUTECH degree, M.Sc & COREN/NSE licensing' },
-  { num: '05', label: 'Contact', path: '/contact', desc: 'Initiate formal consultation & site dispatch' },
+  { num: '04', label: 'Gallery', path: '/gallery', desc: 'Photographic archive of site operations & QA/QC' },
+  { num: '05', label: 'Education', path: '/education', desc: 'LAUTECH degree, M.Sc & COREN/NSE licensing' },
+  { num: '06', label: 'Contact', path: '/contact', desc: 'Initiate formal consultation & site dispatch' },
 ];
 
 export function Header() {
