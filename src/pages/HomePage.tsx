@@ -5,32 +5,26 @@ export function HomePage() {
     <div className="w-full pt-20 bg-surface min-h-[calc(100vh-80px)]">
       <div className="flex flex-col w-full">
         <div className="max-w-[1320px] mx-auto w-full px-margin-mobile md:px-margin-tablet lg:px-margin py-space-xl flex flex-col gap-space-xl">
-          
+
           {/* Hero Section: Balanced Two-Column Layout */}
           <section className="grid grid-cols-1 lg:grid-cols-12 gap-gutter items-stretch">
             {/* Left Column: Primary Typography & Call to Action */}
             <div className="lg:col-span-6 flex flex-col justify-between py-space-md">
               <div>
-                {/* Tag / Badge */}
-                <div className="inline-flex items-center gap-space-xs px-space-sm py-1 bg-surface-container-lowest border border-surface-dim mb-space-lg shadow-sm">
-                  <span className="w-2 h-2 bg-primary-container"></span>
-                  <span className="font-label-technical text-label-technical uppercase tracking-wider text-secondary font-bold">
-                    Civil &amp; Structural Engineer // Lagos State
-                  </span>
-                </div>
+
 
                 {/* Main Headline */}
                 <h1 className="font-display text-display text-on-surface tracking-tight mb-space-lg leading-tight">
                   Building with precision. Delivering with quality.
                 </h1>
 
-                {/* Supporting Introduction */}
+                {/* Supporting Introduction & Career Objective */}
                 <div className="space-y-space-md mb-space-xl max-w-xl">
                   <p className="font-body-lg text-body-lg text-on-surface-variant leading-relaxed">
-                    I am <strong className="text-on-surface font-semibold">Adeyemi Idowu Modupeola</strong>, a Civil Engineer with extensive professional experience in construction quality assurance and quality control (QA/QC), site inspections, materials testing, and construction coordination.
+                    I am <strong className="text-on-surface font-semibold">Adeyemi Idowu Modupeola</strong>, a dedicated and hardworking Civil Engineer seeking to leverage hands-on site experience, structural engineering analysis, and a strong work ethic to deliver high-quality construction projects.
                   </p>
-                  <p className="font-body-md text-body-md text-secondary leading-relaxed">
-                    Committed to enforcing rigorous engineering specifications, supporting effective site operations, and delivering verified structural integrity throughout the building process.
+                  <p className="font-body-md text-body-md text-secondary leading-relaxed border-l-2 border-primary-container pl-3 py-1 bg-surface-container-low/60">
+                    &ldquo;Eager to learn and grow within the construction industry while providing valuable support to the engineering team in achieving project goals, quality benchmarks, and strict completion deadlines.&rdquo;
                   </p>
                 </div>
               </div>
@@ -46,42 +40,45 @@ export function HomePage() {
                 </Link>
 
                 <a
-                  href="/Adeyemi_Modupeola_Civil_Engineer_CV.pdf"
-                  download="Adeyemi_Modupeola_Civil_Engineer_CV.pdf"
+                  href="/Adeyemi_idowu_modupeola_Resume.pdf"
+                  download="Adeyemi_idowu_modupeola_Resume.pdf"
                   className="inline-flex items-center justify-center bg-surface-container-lowest text-on-surface font-label-lg text-label-lg uppercase tracking-wider px-space-lg py-space-md border border-surface-dim hover:border-inverse-surface shadow-neo-sm hover:shadow-neo active:translate-x-[2px] active:translate-y-[2px] active:shadow-none transition-all"
                 >
                   <span className="material-symbols-outlined mr-space-xs text-[18px] text-secondary">download</span>
-                  <span>Download CV</span>
+                  <span>Download CV / Resume</span>
                 </a>
               </div>
             </div>
 
-            {/* Right Column: High-Impact Construction Imagery Frame */}
+            {/* Right Column: Authentic Professional Site Engineer Frame */}
             <div className="lg:col-span-6 flex flex-col justify-between">
               <div className="bg-surface-container-lowest border border-surface-dim p-space-sm h-full flex flex-col justify-between shadow-neo-light hover:shadow-neo transition-all">
-                <div className="relative overflow-hidden w-full aspect-[4/3] lg:aspect-auto lg:h-[500px] bg-surface-container">
+                <div className="relative overflow-hidden w-full aspect-[4/3] lg:aspect-auto lg:h-[520px] bg-surface-container">
                   <img
-                    className="w-full h-full object-cover grayscale-[10%] contrast-105 hover:grayscale-0 transition-all duration-300"
-                    alt="Active reinforced concrete construction site inspection"
-                    src="/assets/construction-framework.png"
-                    onError={(e) => {
-                      (e.currentTarget as HTMLImageElement).src = '/assets/home.png';
-                    }}
+                    className="w-full h-full object-cover object-top hover:scale-[1.02] transition-all duration-300"
+                    alt="Engr. Adeyemi Idowu Modupeola — Civil & Structural Engineer on construction site"
+                    src="/assets/adeyemi-site-hero.jpg"
                   />
-                  <div className="absolute top-space-sm right-space-sm bg-surface-container-lowest/95 px-space-sm py-1 border border-surface-dim shadow-sm">
-                    <span className="font-label-technical text-label-technical text-on-surface uppercase font-semibold">
-                      Field Operations // QA/QC
+                  {/* <div className="absolute top-space-sm right-space-sm bg-surface-container-lowest/95 px-space-sm py-1 border border-surface-dim shadow-sm">
+                    <span className="font-label-technical text-label-technical text-on-surface uppercase font-bold text-primary">
+                      COREN // NSE REGISTERED
+                    </span>
+                  </div> */}
+                  <div className="absolute bottom-space-sm left-space-sm bg-surface-container-lowest/95 px-space-sm py-1 border border-surface-dim shadow-sm flex items-center gap-1.5">
+                    <span className="w-2 h-2 bg-primary-container rounded-full animate-pulse"></span>
+                    <span className="font-label-technical text-label-technical text-on-surface uppercase font-bold text-xs">
+                      Engr. Adeyemi Idowu Modupeola // Site Operations
                     </span>
                   </div>
                 </div>
 
                 <div className="pt-space-sm pb-space-xs px-space-xs flex items-center justify-between border-t border-surface-dim mt-space-xs">
                   <span className="font-label-technical text-label-technical text-secondary uppercase font-semibold">
-                    Structural Concrete Inspection &amp; Reinforcement Verification
+                    Construction Quality Assurance &amp; Site Supervision // Lagos State
                   </span>
                   <div className="flex items-center gap-1">
                     <span className="material-symbols-outlined text-primary-container text-[16px]">verified</span>
-                    <span className="font-label-technical text-label-technical text-on-surface font-bold">VERIFIED SPEC</span>
+                    <span className="font-label-technical text-label-technical text-on-surface font-bold">VERIFIED</span>
                   </div>
                 </div>
               </div>

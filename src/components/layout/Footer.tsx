@@ -104,14 +104,7 @@ export function Footer() {
           <p className="font-label-technical text-label-technical text-secondary uppercase text-center md:text-left">
             &copy; {CURRENT_YEAR} ADEYEMI IDOWU MODUPEOLA. ALL RIGHTS RESERVED. CIVIL &amp; STRUCTURAL ENGINEERING DOSSIER.
           </p>
-          <div className="flex flex-wrap items-center justify-center gap-gutter">
-            <span className="font-label-technical text-label-technical text-secondary uppercase">
-              NEO-BRUTALIST SPECIFICATION
-            </span>
-            <span className="font-label-technical text-label-technical text-primary font-bold uppercase">
-              ISO 9001 / COREN COMPLIANT
-            </span>
-          </div>
+
         </div>
       </div>
     </footer>

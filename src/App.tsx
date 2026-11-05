@@ -2,6 +2,7 @@ import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
 import { Header } from './components/layout/Header';
 import { Footer } from './components/layout/Footer';
 import { ScrollToTop } from './components/common/ScrollToTop';
+import { FaviconManager } from './components/common/FaviconManager';
 import { HomePage } from './pages/HomePage';
 import { AboutPage } from './pages/AboutPage';
 import { ExperiencePage } from './pages/ExperiencePage';
@@ -12,6 +13,7 @@ export function App() {
   return (
     <BrowserRouter>
       <ScrollToTop />
+      <FaviconManager />
       <div className="min-h-screen flex flex-col bg-surface text-on-surface">
         <Header />
         <main className="flex-1 flex flex-col w-full">

@@ -4,18 +4,14 @@ export function EducationPage() {
   return (
     <div className="w-full pt-20 bg-surface min-h-[calc(100vh-80px)]">
       <div className="flex flex-col w-full">
-        
+
         {/* Top Category Bar & Structural Header */}
         <section className="w-full bg-surface-container-low border-b border-surface-dim">
           <div className="max-w-[1320px] mx-auto px-margin-mobile md:px-margin-tablet lg:px-margin py-space-xl">
             {/* Technical Ledger Tracker */}
             <div className="flex flex-wrap items-center justify-between gap-space-sm pb-space-md border-b border-surface-dim">
-              <div className="flex items-center gap-space-sm">
-                <div className="w-2.5 h-2.5 bg-primary-container"></div>
-                <span className="font-label-technical text-label-technical uppercase tracking-widest text-on-surface-variant font-bold">
-                  SECTION 04 // ACADEMIC &amp; STATUTORY CREDENTIALS
-                </span>
-              </div>
+
+
               <div className="flex items-center gap-space-md text-secondary font-label-technical text-label-technical uppercase">
                 <span className="flex items-center gap-1.5">
                   <span className="w-1.5 h-1.5 rounded-full bg-primary-container"></span>
@@ -64,7 +60,7 @@ export function EducationPage() {
         {/* 01. Academic Qualifications */}
         <section className="w-full max-w-[1320px] mx-auto px-margin-mobile md:px-margin-tablet lg:px-margin py-space-xl">
           <div className="flex flex-col gap-space-xl">
-            
+
             <div className="flex items-center justify-between border-b border-surface-dim pb-space-sm">
               <div className="flex items-center gap-space-sm">
                 <span className="font-title text-title uppercase font-bold text-on-surface">
@@ -82,7 +78,7 @@ export function EducationPage() {
             <div className="grid grid-cols-1 lg:grid-cols-12 gap-gutter items-stretch">
               {/* Left Column: Academic Degrees */}
               <div className="lg:col-span-7 flex flex-col gap-gutter">
-                
+
                 {/* Degree 1: Undergraduate */}
                 <div className="bg-surface-container-lowest p-space-lg border border-surface-dim shadow-neo hover:border-inverse-surface transition-all">
                   <div className="flex flex-wrap items-center justify-between gap-2 pb-space-sm border-b border-surface-dim mb-space-md">
@@ -228,7 +224,7 @@ export function EducationPage() {
               </div>
 
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-gutter">
-                
+
                 {/* Cert 1: COREN */}
                 <div className="bg-surface-container-lowest border border-surface-dim p-space-lg flex flex-col justify-between shadow-neo-light hover:shadow-neo transition-all group">
                   <div>
@@ -400,8 +396,8 @@ export function EducationPage() {
                   Initiate Request
                 </Link>
                 <a
-                  href="/Adeyemi_Modupeola_Civil_Engineer_CV.pdf"
-                  download="Adeyemi_Modupeola_Civil_Engineer_CV.pdf"
+                  href="/Adeyemi_idowu_modupeola_Resume.pdf"
+                  download="Adeyemi_idowu_modupeola_Resume.pdf"
                   className="px-space-md py-space-sm bg-surface-container-lowest text-on-surface font-label-lg text-label-lg uppercase tracking-wider border border-surface-dim shadow-neo-sm hover:bg-surface-container-high transition-all"
                 >
                   Download CV

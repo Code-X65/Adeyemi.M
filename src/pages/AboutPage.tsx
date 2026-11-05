@@ -5,17 +5,12 @@ export function AboutPage() {
     <div className="w-full pt-20 bg-surface min-h-[calc(100vh-80px)]">
       <div className="flex flex-col w-full">
         <div className="max-w-[1320px] mx-auto w-full px-margin-mobile md:px-margin-tablet lg:px-margin py-space-xl space-y-space-xl">
-          
+
           {/* 1. ABOUT INTRODUCTION */}
           <section className="grid grid-cols-1 lg:grid-cols-12 gap-gutter items-start">
             {/* Left Column: Narrative Content */}
             <div className="lg:col-span-7 flex flex-col justify-center">
-              <div className="flex items-center gap-space-xs mb-space-sm">
-                <span className="w-2.5 h-2.5 bg-primary-container inline-block"></span>
-                <span className="font-label-technical text-label-technical uppercase tracking-widest text-secondary font-semibold">
-                  Engineering Profile // Bio Dossier
-                </span>
-              </div>
+
               <h1 className="font-headline-lg text-headline-lg md:text-display text-on-tertiary-container tracking-tight">
                 About Me
               </h1>
@@ -65,27 +60,29 @@ export function AboutPage() {
               </div>
             </div>
 
-            {/* Right Column: Site Photography Asset */}
+            {/* Right Column: Authentic Engineering Workstation Asset */}
             <div className="lg:col-span-5 flex flex-col">
               <div className="bg-surface-container-lowest border border-surface-dim p-space-xs shadow-neo-light hover:shadow-neo transition-all duration-200">
                 <div className="relative overflow-hidden bg-surface-container-high aspect-[4/3] w-full">
                   <img
-                    alt="Civil engineer on construction site reviewing structural drawings"
-                    className="w-full h-full object-cover object-center grayscale-[10%] hover:grayscale-0 transition-all duration-300"
-                    src="/assets/engineer-inspecting-site.png"
-                    onError={(e) => {
-                      (e.currentTarget as HTMLImageElement).src = '/assets/about-me-real.png';
-                    }}
+                    alt="Engr. Adeyemi Idowu Modupeola reviewing structural engineering blueprints and CAD models"
+                    className="w-full h-full object-cover object-center hover:scale-[1.02] transition-all duration-300"
+                    src="/assets/adeyemi-about-desk.jpg"
                   />
                   <div className="absolute top-space-xs left-space-xs bg-surface-container-lowest/95 px-space-xs py-0.5 border border-surface-dim">
                     <span className="font-label-technical text-label-technical uppercase text-on-surface font-semibold">
-                      Field Verification
+                      Design &amp; Quality Review Desk
+                    </span>
+                  </div>
+                  <div className="absolute bottom-space-xs right-space-xs bg-surface-container-lowest/95 px-space-xs py-0.5 border border-surface-dim">
+                    <span className="font-label-technical text-label-technical uppercase text-primary font-bold">
+                      COREN / NSE CERTIFIED
                     </span>
                   </div>
                 </div>
                 <div className="pt-space-sm pb-space-xs px-space-xs flex items-center justify-between border-t border-surface-dim mt-space-xs">
                   <span className="font-label-technical text-label-technical text-on-surface-variant font-medium">
-                    Construction site inspection &amp; quality compliance review
+                    Structural Checks • Blueprint Review • QA/QC Documentation
                   </span>
                   <span className="material-symbols-outlined text-[18px] text-primary-container shrink-0">verified</span>
                 </div>
@@ -550,8 +547,8 @@ export function AboutPage() {
                   <span className="material-symbols-outlined text-[18px]">arrow_forward</span>
                 </Link>
                 <a
-                  href="/Adeyemi_Modupeola_Civil_Engineer_CV.pdf"
-                  download="Adeyemi_Modupeola_Civil_Engineer_CV.pdf"
+                  href="/Adeyemi_idowu_modupeola_Resume.pdf"
+                  download="Adeyemi_idowu_modupeola_Resume.pdf"
                   className="inline-flex items-center gap-space-xs bg-transparent text-on-primary font-label-lg text-label-lg uppercase tracking-wider px-space-lg py-space-sm border border-surface-dim hover:border-on-primary hover:bg-surface-container-lowest/10 transition-all"
                 >
                   <span>Download CV</span>

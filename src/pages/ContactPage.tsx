@@ -54,31 +54,12 @@ export function ContactPage() {
   return (
     <div className="w-full pt-20 bg-surface min-h-[calc(100vh-80px)]">
       <div className="flex flex-col w-full">
-        
+
         {/* SECTION HEADER & STATUS ARCHITECTURE */}
         <section className="w-full bg-surface-container-low border-b border-surface-dim">
           <div className="max-w-[1320px] mx-auto px-margin-mobile md:px-margin-tablet lg:px-margin py-space-xl">
             {/* Metatags and Operational Indicators */}
-            <div className="flex flex-wrap items-center justify-between gap-space-sm mb-space-md">
-              <div className="flex items-center gap-space-xs">
-                <span className="w-2.5 h-2.5 bg-primary-container inline-block"></span>
-                <span className="font-label-technical text-label-technical uppercase text-secondary tracking-widest font-semibold">
-                  CONTACT &amp; INQUIRIES // PROFESSIONAL CONSULTATION
-                </span>
-              </div>
-              <div className="flex flex-wrap items-center gap-space-xs">
-                <span className="inline-flex items-center gap-1.5 px-2.5 py-1 bg-surface-container-lowest border border-surface-dim text-on-surface font-label-technical text-label-technical uppercase shadow-sm">
-                  <span className="w-2 h-2 bg-primary-container rounded-full animate-pulse"></span>
-                  Active Tendering &amp; Consultation Open
-                </span>
-                <span className="inline-flex items-center px-2.5 py-1 bg-surface-container-high text-on-surface font-label-technical text-label-technical uppercase">
-                  COREN Registered // NSE Corporate Member
-                </span>
-                <span className="inline-flex items-center px-2.5 py-1 bg-on-tertiary-container text-surface-container-lowest font-label-technical text-label-technical uppercase">
-                  Turnaround: 24–48 Business Hours
-                </span>
-              </div>
-            </div>
+
 
             {/* Main Header Layout */}
             <div className="grid grid-cols-1 lg:grid-cols-12 gap-gutter items-end">
@@ -106,10 +87,10 @@ export function ContactPage() {
         <section className="w-full bg-surface">
           <div className="max-w-[1320px] mx-auto px-margin-mobile md:px-margin-tablet lg:px-margin py-space-xl">
             <div className="grid grid-cols-1 lg:grid-cols-12 gap-gutter items-start">
-              
+
               {/* LEFT COLUMN: DIRECT INQUIRY CHANNELS & FIELD BASE */}
               <div className="lg:col-span-5 flex flex-col gap-space-lg">
-                
+
                 {/* Direct Channels Dossier */}
                 <div className="bg-surface-container-lowest border border-surface-dim p-space-lg flex flex-col gap-space-md shadow-neo">
                   <div className="flex items-center justify-between border-b border-surface-dim pb-space-sm">
@@ -255,8 +236,8 @@ export function ContactPage() {
                     </span>
                   </div>
                   <a
-                    href="/Adeyemi_Modupeola_Civil_Engineer_CV.pdf"
-                    download="Adeyemi_Modupeola_Civil_Engineer_CV.pdf"
+                    href="/Adeyemi_idowu_modupeola_Resume.pdf"
+                    download="Adeyemi_idowu_modupeola_Resume.pdf"
                     className="inline-flex items-center gap-1 px-space-md py-space-sm bg-primary-container text-on-primary font-label-lg text-label-lg uppercase tracking-wider shadow-neo-sm hover:shadow-neo transition-all"
                   >
                     <span className="material-symbols-outlined text-[18px]">download</span>
@@ -269,7 +250,7 @@ export function ContactPage() {
               {/* RIGHT COLUMN: INTERACTIVE FORM DESK */}
               <div className="lg:col-span-7">
                 <div className="bg-surface-container-lowest border border-surface-dim p-space-lg md:p-space-xl shadow-neo">
-                  
+
                   {submittedTicket ? (
                     /* Success Confirmation State */
                     <div className="py-space-lg flex flex-col items-start gap-space-md animate-fadeIn">

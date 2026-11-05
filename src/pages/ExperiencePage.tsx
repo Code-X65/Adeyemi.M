@@ -21,96 +21,111 @@ const experiences: ExperienceItem[] = [
     id: 'ccecc',
     category: 'rail',
     expCode: 'EXP 01',
-    discipline: 'Civil Infrastructure & Rail Modernization',
+    discipline: 'Civil Infrastructure & Heavy Engineering',
     currentRole: true,
-    company: 'China Civil Engineering Construction Corporation (CCECC)',
-    role: 'Quality Assurance & Quality Control (QA/QC) Engineer',
-    period: '2019 — Present',
-    location: 'Lagos / Ogun State Corridor, Nigeria',
-    overview: 'Serving as lead site QA/QC Engineer on major national infrastructure frameworks including standard-gauge railway systems, ancillary station edifices, overpass flyovers, and heavy drainage channels.',
+    company: 'China Civil Engineering Construction Co (CCECC)',
+    role: 'Quality Assurance and Quality Control (QA/QC) Engineer',
+    period: 'June 2017 — Present',
+    location: 'Lagos, Nigeria',
+    overview: 'Directing quality assurance and quality control operations on major infrastructure and standard-gauge civil projects. Managing project timelines, subcontracts, and multi-disciplinary site compliance.',
     responsibilities: [
-      'Formulating, auditing, and executing site Inspection & Test Plans (ITPs) across earthworks, pre-stressed concrete sleepers, sub-ballast layers, and structural concrete piers.',
-      'Supervising on-site quality compliance for heavy reinforced concrete pours exceeding 250m³ per shift, verifying slump, temperature, and vibrating techniques.',
-      'Conducting rigorous non-destructive and destructive batch testing on high-yield deformed steel rebar (BS 4449) and aggregate grading.',
-      'Issuing Non-Conformance Reports (NCRs), tracking corrective action requests (CARs), and liaising with client resident consultant inspectors for joint sign-offs.'
+      'Participate in project planning meetings to understand project requirements, timelines, and critical deliverables.',
+      'Coordinate with project managers, architects, engineers, and subcontractors to develop construction plans and schedules.',
+      'Oversee day-to-day construction activities at the project site, ensuring strict compliance with safety protocols, quality standards, and project specifications.',
+      'Monitor progress, identify potential risks or delays, and implement corrective actions to keep projects on track.',
+      'Conduct regular site inspections to ensure workmanship, safety, and strict adherence to construction plans.',
+      'Ensure that construction materials and execution methods meet quality standards and regulatory requirements.',
+      'Perform inspections and tests on construction materials and structures to verify compliance with specifications and regulations.',
+      'Address quality issues promptly and work with subcontractors to implement corrective measures.',
+      'Supervise subcontractors and construction crews, providing guidance, direction, and support as needed.',
+      'Identify opportunities for cost savings or efficiency improvements and implement measures to optimize project costs.'
     ],
     deliverables: [
-      'Standard Gauge Rail Corridor Alignment',
-      'Track-bed Compaction & CBR Verification',
-      'Bridge Abutments & Precast Girder Placement',
-      'Overpass Structural Load Testing Dossiers'
+      'Project Planning & Scheduling Plans',
+      'Material Testing & Inspection Regimes',
+      'Non-Conformance Resolution Dossiers',
+      'Subcontractor Execution Schedules',
+      'Cost Optimization & Efficiency Measures'
     ]
   },
   {
-    id: 'structural-supervision',
-    category: 'structural',
-    expCode: 'EXP 02',
-    discipline: 'Multistorey Commercial & Institutional Frameworks',
-    currentRole: false,
-    company: 'Integrated Engineering & Construction Services Ltd',
-    role: 'Civil Site Engineer & Structural Supervisor',
-    period: '2017 — 2019',
-    location: 'Lagos Island & Victoria Island, Nigeria',
-    overview: 'Directed site supervision and technical inspections for high-density reinforced concrete framed institutional complexes and multistorey commercial buildings.',
-    responsibilities: [
-      'Inspected reinforcement fixing against Bar Bending Schedules (BBS) to ensure exact concrete cover, lap lengths, anchorage, and shear links prior to concrete pouring approvals.',
-      'Supervised formwork installation, propping stability, and striking times in compliance with BS 8110 safety criteria.',
-      'Monitored deep foundation works including cast-in-situ bored piles, pile cap construction, and basement retaining wall waterproofing barriers.',
-      'Chaired weekly technical coordination meetings with architectural, MEP, and structural engineering sub-contractors.'
-    ],
-    deliverables: [
-      '7-Storey Reinforced Concrete Framed Edifice',
-      'Bored Cast-in-Situ Foundation Inspections',
-      'Substructure Retaining Membrane QA',
-      'Structural As-Built Verification'
-    ]
-  },
-  {
-    id: 'materials-qa',
+    id: 'hi-tech',
     category: 'qa-qc',
-    expCode: 'EXP 03',
-    discipline: 'Geotechnical & Construction Materials Laboratory',
+    expCode: 'EXP 02',
+    discipline: 'Heavy Civil & Highway Infrastructure',
     currentRole: false,
-    company: 'Civil Materials Testing & Standards Facility',
-    role: 'Materials Testing & Quality Compliance Engineer',
-    period: '2016 — 2017',
-    location: 'Oyo / Ogun State, Nigeria',
-    overview: 'Managed independent laboratory testing of construction materials, soil mechanics, and structural concrete samples for major road and bridge contracts.',
+    company: 'Hi-Tech Construction Company',
+    role: 'Quality Assurance and Quality Control (QA/QC) Engineer',
+    period: 'January 2017 — June 2020',
+    location: 'Lagos, Nigeria',
+    overview: 'Spearheaded QA/QC procedure development, site inspections, testing and sampling, supplier compliance, and quality risk assessments across high-profile civil frameworks.',
     responsibilities: [
-      'Conducted standardized compressive strength crushing tests on 150mm concrete cubes at 7, 14, and 28-day curing intervals.',
-      'Executed soil mechanics tests: Atterberg limits, sieve analysis, Proctor compaction, California Bearing Ratio (CBR), and moisture-density relationships.',
-      'Prepared formal Quality Control Certifications and calibrated on-site testing apparatus (Schmidt rebound hammer, slump cones, nuclear density gauges).',
-      'Evaluated chemical admixture batching to optimize high-performance, low-permeability concrete mix designs.'
+      'Developed and formalized site-wide QA/QC procedures and quality planning protocols.',
+      'Conducted rigorous quality inspections across active concrete pours and pavement layers.',
+      'Managed material testing and sampling regimes for aggregates, asphalt, and concrete batches.',
+      'Administered non-conformance management, root-cause investigations, and corrective action implementations.',
+      'Oversaw comprehensive document control, test certificates, and daily compliance records.',
+      'Delivered training and education on quality benchmarks for site crews and subcontractors.',
+      'Managed supplier and subcontractor quality evaluations to ensure certified material procurement.',
+      'Led quality risk assessments and continuous improvement initiatives across site divisions.'
     ],
     deliverables: [
-      '5,000+ Concrete Cube Compression Reports',
-      'Soil Stabilization & CBR Profiles',
-      'Aggregates Specific Gravity & Impact Value Tests',
-      'ISO 9001 Testing Audit Compliance'
+      'QA/QC Procedure & Inspection Manuals',
+      'Testing & Sampling Verification Reports',
+      'Supplier & Subcontractor Compliance Audits',
+      'Quality Risk Assessment Frameworks'
     ]
   },
   {
-    id: 'road-civil',
+    id: 'ogroma',
     category: 'site',
-    expCode: 'EXP 04',
-    discipline: 'Municipal Highway Works & Hydraulic Drainage',
+    expCode: 'EXP 03',
+    discipline: 'State Highway Maintenance & Civil Drainage',
     currentRole: false,
-    company: 'Urban Infrastructure & Highway Contractors',
-    role: 'Site Engineer (Civil Resident Trainee)',
+    company: 'Ogun State Road Management Agency (OGROMA)',
+    role: 'Site Engineer (NYSC)',
     period: '2015 — 2016',
-    location: 'Southwestern Nigeria',
-    overview: 'Supervised civil road construction, storm drainage networks, box culvert construction, and subgrade stabilization.',
+    location: 'Ogun State, Nigeria',
+    overview: 'Supported public infrastructure road construction, safety compliance, materials management, and quality control on behalf of the state road authority.',
     responsibilities: [
-      'Set out alignments, levels, and road cross-sections using total stations and automatic optical levels.',
-      'Monitored earthmoving operations: cut, fill, subgrade preparation, stone base spreading, and prime coat application.',
-      'Supervised the construction of reinforced concrete box culverts and open trapezoidal storm water drainage canals.',
-      'Logged daily site manpower records, weather conditions, equipment usage, and progress measurement for client valuations.'
+      'Assisted resident engineers with project planning, cross-sections, and alignment setting-out.',
+      'Provided active construction site support across road rehabilitation, drainage clearing, and pavement resurfacing.',
+      'Enforced site safety protocols and environmental compliance regulations.',
+      'Conducted quality assurance and quality control checks on base materials and asphalt placement.',
+      'Managed materials inventory, plant equipment allocations, and on-site testing logs.',
+      'Maintained daily technical communication, team coordination, and client / community relations.'
     ],
     deliverables: [
-      '12km Dual-Carriageway Arterial Road Works',
-      'Double-Cell Reinforced Box Culvert Construction',
-      'Cast-in-Situ Hydraulic Storm Drain Canals',
-      'Field Survey Setting-Out Controls'
+      'Road Rehabilitation Site Support',
+      'Drainage & Culvert Construction QA',
+      'Materials Inventory Management',
+      'Public Sector Infrastructure Reporting'
+    ]
+  },
+  {
+    id: 'ministry-of-works',
+    category: 'structural',
+    expCode: 'EXP 04',
+    discipline: 'Public Works & Civil Infrastructure Governance',
+    currentRole: false,
+    company: 'Ministry of Works and Infrastructures',
+    role: 'Industrial Trainee Site Engineer',
+    period: '2015 — 2016',
+    location: 'Alausa, Ikeja, Lagos State, Nigeria',
+    overview: 'Conducted site surveys, soil investigations, and supported municipal engineering project supervision under senior resident civil engineers.',
+    responsibilities: [
+      'Assisted in project planning, drawing reviews, and engineering team coordination.',
+      'Conducted field site surveys, level taking, and soil / sand geotechnical investigations.',
+      'Assisted in daily construction activities and monitoring structural contractors on site.',
+      'Enforced Health, Safety, and Environmental (HSE) compliance across working zones.',
+      'Maintained meticulous daily site documentation, inspection logs, and technical reports.',
+      'Engaged in continuous professional engineering mentorship and civil development.'
+    ],
+    deliverables: [
+      'Site Survey & Soil Investigation Reports',
+      'HSE Site Compliance Audits',
+      'Daily Engineering Progress Logs',
+      'Municipal Infrastructure Reviews'
     ]
   }
 ];
@@ -126,17 +141,12 @@ export function ExperiencePage() {
   return (
     <div className="w-full pt-20 bg-surface min-h-[calc(100vh-80px)]">
       <div className="flex flex-col w-full">
-        
+
         {/* Page Header & Overview Section */}
         <section className="w-full bg-surface-container-low border-b border-surface-dim">
           <div className="max-w-[1320px] mx-auto px-margin-mobile md:px-margin-tablet lg:px-margin py-space-xl">
             <div className="flex flex-col gap-space-sm max-w-4xl">
-              <div className="inline-flex items-center gap-space-xs self-start bg-surface-container-lowest px-space-sm py-1 border border-surface-dim shadow-sm">
-                <span className="w-2 h-2 bg-primary-container inline-block"></span>
-                <span className="font-label-technical text-label-technical tracking-wider uppercase text-on-surface font-bold">
-                  Career History &amp; Field Practice
-                </span>
-              </div>
+
               <h1 className="font-display text-headline-lg md:text-display tracking-tight text-on-surface uppercase font-extrabold mt-space-xs">
                 Professional Experience
               </h1>
@@ -177,7 +187,7 @@ export function ExperiencePage() {
         {/* Chronological Stream with Category Filter */}
         <section className="w-full bg-surface py-space-xl">
           <div className="max-w-[1320px] mx-auto px-margin-mobile md:px-margin-tablet lg:px-margin">
-            
+
             {/* Filter Bar & Header */}
             <div className="flex flex-col md:flex-row md:items-center justify-between gap-space-md border-b border-surface-dim pb-space-md mb-space-xl">
               <div>
@@ -194,44 +204,40 @@ export function ExperiencePage() {
                 <button
                   type="button"
                   onClick={() => setActiveFilter('all')}
-                  className={`px-space-md py-1.5 font-label-technical text-label-technical uppercase tracking-wider border transition-all ${
-                    activeFilter === 'all'
+                  className={`px-space-md py-1.5 font-label-technical text-label-technical uppercase tracking-wider border transition-all ${activeFilter === 'all'
                       ? 'bg-on-tertiary-container text-surface-container-lowest border-on-tertiary-container shadow-neo-sm font-bold'
                       : 'bg-surface-container-lowest text-on-surface-variant border-surface-dim hover:bg-surface-container-high'
-                  }`}
+                    }`}
                 >
                   All Sectors
                 </button>
                 <button
                   type="button"
                   onClick={() => setActiveFilter('rail')}
-                  className={`px-space-md py-1.5 font-label-technical text-label-technical uppercase tracking-wider border transition-all ${
-                    activeFilter === 'rail'
+                  className={`px-space-md py-1.5 font-label-technical text-label-technical uppercase tracking-wider border transition-all ${activeFilter === 'rail'
                       ? 'bg-primary-container text-on-primary border-on-tertiary-container shadow-neo-sm font-bold'
                       : 'bg-surface-container-lowest text-on-surface-variant border-surface-dim hover:bg-surface-container-high'
-                  }`}
+                    }`}
                 >
                   Rail &amp; Infrastructure
                 </button>
                 <button
                   type="button"
                   onClick={() => setActiveFilter('structural')}
-                  className={`px-space-md py-1.5 font-label-technical text-label-technical uppercase tracking-wider border transition-all ${
-                    activeFilter === 'structural'
+                  className={`px-space-md py-1.5 font-label-technical text-label-technical uppercase tracking-wider border transition-all ${activeFilter === 'structural'
                       ? 'bg-primary-container text-on-primary border-on-tertiary-container shadow-neo-sm font-bold'
                       : 'bg-surface-container-lowest text-on-surface-variant border-surface-dim hover:bg-surface-container-high'
-                  }`}
+                    }`}
                 >
                   Structural Buildings
                 </button>
                 <button
                   type="button"
                   onClick={() => setActiveFilter('qa-qc')}
-                  className={`px-space-md py-1.5 font-label-technical text-label-technical uppercase tracking-wider border transition-all ${
-                    activeFilter === 'qa-qc'
+                  className={`px-space-md py-1.5 font-label-technical text-label-technical uppercase tracking-wider border transition-all ${activeFilter === 'qa-qc'
                       ? 'bg-primary-container text-on-primary border-on-tertiary-container shadow-neo-sm font-bold'
                       : 'bg-surface-container-lowest text-on-surface-variant border-surface-dim hover:bg-surface-container-high'
-                  }`}
+                    }`}
                 >
                   Materials QA/QC
                 </button>
@@ -367,8 +373,8 @@ export function ExperiencePage() {
                   Contact Desk
                 </Link>
                 <a
-                  href="/Adeyemi_Modupeola_Civil_Engineer_CV.pdf"
-                  download="Adeyemi_Modupeola_Civil_Engineer_CV.pdf"
+                  href="/Adeyemi_idowu_modupeola_Resume.pdf"
+                  download="Adeyemi_idowu_modupeola_Resume.pdf"
                   className="px-space-md py-space-sm bg-surface-container-lowest text-on-surface font-label-lg text-label-lg uppercase tracking-wider border border-surface-dim shadow-neo-sm hover:bg-surface-container-high transition-all"
                 >
                   Download CV
