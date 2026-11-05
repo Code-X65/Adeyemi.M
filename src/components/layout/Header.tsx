@@ -216,7 +216,7 @@ export function Header() {
                   Adeyemi Idowu Modupeola
                 </span>
                 <span className="font-label-technical text-label-technical uppercase tracking-wider text-secondary">
-                  Civil &amp; Structural Engineer
+                  Civil Engineer
                 </span>
               </div>
             </Link>

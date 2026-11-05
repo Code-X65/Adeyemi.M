@@ -38,7 +38,7 @@ export function AboutPage() {
                     Discipline
                   </span>
                   <span className="font-body-md text-body-md font-semibold text-on-surface">
-                    Civil &amp; Structural
+                    Civil Engineering
                   </span>
                 </div>
                 <div>

@@ -2,7 +2,7 @@ import { useEffect, useRef } from 'react';
 import { useLocation } from 'react-router-dom';
 
 const ROUTE_TITLES: Record<string, string> = {
-  '/': '👷 Adeyemi Idowu Modupeola — Civil & Structural Engineer // Portfolio Dossier',
+  '/': '👷 Adeyemi Idowu Modupeola — Civil Engineer // Portfolio Dossier',
   '/about': '📐 Profile & Philosophy — Engr. Adeyemi Idowu Modupeola',
   '/experience': '🏗️ Infrastructure & Site Experience — Engr. Adeyemi Idowu Modupeola',
   '/education': '📜 B.Tech & COREN Certification — Engr. Adeyemi Idowu Modupeola',

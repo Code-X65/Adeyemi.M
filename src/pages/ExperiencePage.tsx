@@ -56,7 +56,7 @@ const experiences: ExperienceItem[] = [
     currentRole: false,
     company: 'Hi-Tech Construction Company',
     role: 'Quality Assurance and Quality Control (QA/QC) Engineer',
-    period: 'January 2017 — June 2020',
+    period: 'January 2017 — June 2017',
     location: 'Lagos, Nigeria',
     overview: 'Spearheaded QA/QC procedure development, site inspections, testing and sampling, supplier compliance, and quality risk assessments across high-profile civil frameworks.',
     responsibilities: [
@@ -84,7 +84,7 @@ const experiences: ExperienceItem[] = [
     currentRole: false,
     company: 'Ogun State Road Management Agency (OGROMA)',
     role: 'Site Engineer (NYSC)',
-    period: '2015 — 2016',
+    period: '2013 — 2014',
     location: 'Ogun State, Nigeria',
     overview: 'Supported public infrastructure road construction, safety compliance, materials management, and quality control on behalf of the state road authority.',
     responsibilities: [
@@ -110,7 +110,7 @@ const experiences: ExperienceItem[] = [
     currentRole: false,
     company: 'Ministry of Works and Infrastructures',
     role: 'Industrial Trainee Site Engineer',
-    period: '2015 — 2016',
+    period: '2013 — 2014',
     location: 'Alausa, Ikeja, Lagos State, Nigeria',
     overview: 'Conducted site surveys, soil investigations, and supported municipal engineering project supervision under senior resident civil engineers.',
     responsibilities: [
@@ -205,8 +205,8 @@ export function ExperiencePage() {
                   type="button"
                   onClick={() => setActiveFilter('all')}
                   className={`px-space-md py-1.5 font-label-technical text-label-technical uppercase tracking-wider border transition-all ${activeFilter === 'all'
-                      ? 'bg-on-tertiary-container text-surface-container-lowest border-on-tertiary-container shadow-neo-sm font-bold'
-                      : 'bg-surface-container-lowest text-on-surface-variant border-surface-dim hover:bg-surface-container-high'
+                    ? 'bg-on-tertiary-container text-surface-container-lowest border-on-tertiary-container shadow-neo-sm font-bold'
+                    : 'bg-surface-container-lowest text-on-surface-variant border-surface-dim hover:bg-surface-container-high'
                     }`}
                 >
                   All Sectors
@@ -215,8 +215,8 @@ export function ExperiencePage() {
                   type="button"
                   onClick={() => setActiveFilter('rail')}
                   className={`px-space-md py-1.5 font-label-technical text-label-technical uppercase tracking-wider border transition-all ${activeFilter === 'rail'
-                      ? 'bg-primary-container text-on-primary border-on-tertiary-container shadow-neo-sm font-bold'
-                      : 'bg-surface-container-lowest text-on-surface-variant border-surface-dim hover:bg-surface-container-high'
+                    ? 'bg-primary-container text-on-primary border-on-tertiary-container shadow-neo-sm font-bold'
+                    : 'bg-surface-container-lowest text-on-surface-variant border-surface-dim hover:bg-surface-container-high'
                     }`}
                 >
                   Rail &amp; Infrastructure
@@ -225,8 +225,8 @@ export function ExperiencePage() {
                   type="button"
                   onClick={() => setActiveFilter('structural')}
                   className={`px-space-md py-1.5 font-label-technical text-label-technical uppercase tracking-wider border transition-all ${activeFilter === 'structural'
-                      ? 'bg-primary-container text-on-primary border-on-tertiary-container shadow-neo-sm font-bold'
-                      : 'bg-surface-container-lowest text-on-surface-variant border-surface-dim hover:bg-surface-container-high'
+                    ? 'bg-primary-container text-on-primary border-on-tertiary-container shadow-neo-sm font-bold'
+                    : 'bg-surface-container-lowest text-on-surface-variant border-surface-dim hover:bg-surface-container-high'
                     }`}
                 >
                   Structural Buildings
@@ -235,8 +235,8 @@ export function ExperiencePage() {
                   type="button"
                   onClick={() => setActiveFilter('qa-qc')}
                   className={`px-space-md py-1.5 font-label-technical text-label-technical uppercase tracking-wider border transition-all ${activeFilter === 'qa-qc'
-                      ? 'bg-primary-container text-on-primary border-on-tertiary-container shadow-neo-sm font-bold'
-                      : 'bg-surface-container-lowest text-on-surface-variant border-surface-dim hover:bg-surface-container-high'
+                    ? 'bg-primary-container text-on-primary border-on-tertiary-container shadow-neo-sm font-bold'
+                    : 'bg-surface-container-lowest text-on-surface-variant border-surface-dim hover:bg-surface-container-high'
                     }`}
                 >
                   Materials QA/QC

@@ -17,18 +17,11 @@ export function Footer() {
                 </span>
               </div>
               <p className="font-body-sm text-body-sm text-on-surface-variant max-w-md mt-space-xs leading-relaxed">
-                Licensed Civil &amp; Structural Engineering Consultant. Specializing in heavy infrastructure analysis,
+                Licensed Civil Engineering Consultant. Specializing in heavy infrastructure analysis,
                 reinforced concrete frameworks, construction QA/QC, and precision project supervision across institutional and municipal domains.
               </p>
             </div>
-            <div className="mt-space-lg pt-space-sm border-t border-surface-dim/60">
-              <span className="font-label-technical text-label-technical uppercase tracking-widest text-secondary block mb-space-xs">
-                Practice Identification &amp; Regulatory Body
-              </span>
-              <span className="font-label-technical text-label-technical text-on-surface uppercase font-semibold">
-                REG. NO: CE-NG-78401 // COREN REGISTERED ENGINEER // NSE CORPORATE MEMBER
-              </span>
-            </div>
+
           </div>
 
           {/* Index Directory */}
@@ -102,7 +95,7 @@ export function Footer() {
         {/* Legal & Standards Sub-footer */}
         <div className="border-t border-surface-dim pt-space-md flex flex-col md:flex-row items-center justify-between gap-space-sm">
           <p className="font-label-technical text-label-technical text-secondary uppercase text-center md:text-left">
-            &copy; {CURRENT_YEAR} ADEYEMI IDOWU MODUPEOLA. ALL RIGHTS RESERVED. CIVIL &amp; STRUCTURAL ENGINEERING DOSSIER.
+            &copy; {CURRENT_YEAR} ADEYEMI IDOWU MODUPEOLA. ALL RIGHTS RESERVED. CIVIL ENGINEERING DOSSIER.
           </p>
 
         </div>

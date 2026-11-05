@@ -56,7 +56,7 @@ export function HomePage() {
                 <div className="relative overflow-hidden w-full aspect-[4/3] lg:aspect-auto lg:h-[520px] bg-surface-container">
                   <img
                     className="w-full h-full object-cover object-top hover:scale-[1.02] transition-all duration-300"
-                    alt="Engr. Adeyemi Idowu Modupeola — Civil & Structural Engineer on construction site"
+                    alt="Engr. Adeyemi Idowu Modupeola — Civil Engineer on construction site"
                     src="/assets/adeyemi-site-hero.jpg"
                   />
                   {/* <div className="absolute top-space-sm right-space-sm bg-surface-container-lowest/95 px-space-sm py-1 border border-surface-dim shadow-sm">
@@ -188,7 +188,7 @@ export function HomePage() {
                     Structural Analysis &amp; Detailing
                   </h3>
                   <p className="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
-                    Interpreting structural engineer drawings, bar bending schedules (BBS), and resolving on-site discrepancies with design teams.
+                    Interpreting structural engineering drawings, bar bending schedules (BBS), and resolving on-site discrepancies with design teams.
                   </p>
                 </div>
                 <div className="mt-space-md pt-space-sm border-t border-surface-container flex items-center justify-between">

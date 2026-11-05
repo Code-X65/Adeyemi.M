@@ -18,7 +18,7 @@ export function EducationPage() {
                   COREN REGISTERED
                 </span>
                 <span className="hidden sm:inline text-surface-dim">|</span>
-                <span className="hidden sm:inline">DISCIPLINE: CIVIL &amp; STRUCTURAL</span>
+                <span className="hidden sm:inline">DISCIPLINE: CIVIL ENGINEERING</span>
                 <span className="hidden sm:inline text-surface-dim">|</span>
                 <span className="text-on-surface font-semibold">VERIFIED COMPLIANCE</span>
               </div>
@@ -241,7 +241,7 @@ export function EducationPage() {
                       Council for the Regulation of Engineering in Nigeria
                     </p>
                     <p className="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
-                      Legally chartered to practice, endorse, and supervise civil &amp; structural engineering undertakings across the Federal Republic of Nigeria.
+                      Legally chartered to practice, endorse, and supervise civil engineering undertakings across the Federal Republic of Nigeria.
                     </p>
                   </div>
                   <div className="mt-space-md pt-space-xs border-t border-surface-dim flex items-center justify-between">
