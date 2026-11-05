@@ -285,10 +285,10 @@ export function HomePage() {
                   </span>
                 </div>
                 <h3 className="font-headline-sm text-headline-sm font-bold text-on-surface uppercase tracking-tight">
-                  Field Project &amp; Inspection Gallery
+                  Gallery Book
                 </h3>
                 <p className="font-body-sm text-body-sm text-on-surface-variant max-w-xl mt-1">
-                  Verified photographic logs of structural framework, rebar quality assurance, and heavy continuous concrete casting.
+                  Photographic lookbook of on-site structural framework, quality assurance inspections, and civil field operations.
                 </p>
               </div>
 
@@ -296,7 +296,7 @@ export function HomePage() {
                 to="/gallery"
                 className="inline-flex items-center gap-2 bg-on-tertiary-container text-on-tertiary font-label-technical text-xs uppercase tracking-wider px-space-md py-2.5 border border-on-tertiary-container shadow-neo-sm hover:bg-primary-container hover:shadow-neo transition-all"
               >
-                <span>View All 12 Field Records</span>
+                <span>Open Gallery Book</span>
                 <span className="material-symbols-outlined text-[16px]">arrow_forward</span>
               </Link>
             </div>
@@ -310,21 +310,10 @@ export function HomePage() {
                 <div className="relative aspect-[16/10] overflow-hidden bg-surface-container">
                   <img
                     src="/assets/gallery/thumbs/project-site-01.webp"
-                    alt="Elevated Rail Transit Station Terminal"
+                    alt="Gallery book preview 01"
                     loading="lazy"
                     className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                   />
-                  <div className="absolute top-2 left-2 bg-on-tertiary-container/90 text-on-tertiary px-2 py-0.5 font-label-technical text-[10px] uppercase tracking-wider">
-                    01 // On-Site
-                  </div>
-                </div>
-                <div className="p-3">
-                  <h4 className="font-title text-xs sm:text-sm font-bold uppercase text-on-surface group-hover:text-primary transition-colors line-clamp-1">
-                    Elevated Rail Station Terminal
-                  </h4>
-                  <p className="font-label-technical text-[11px] text-secondary uppercase mt-0.5">
-                    CCECC Rail Corridor, Lagos
-                  </p>
                 </div>
               </Link>
 
@@ -336,21 +325,10 @@ export function HomePage() {
                 <div className="relative aspect-[16/10] overflow-hidden bg-surface-container">
                   <img
                     src="/assets/gallery/thumbs/project-site-08.webp"
-                    alt="Drainage Culvert Rebar & Excavation Staging"
+                    alt="Gallery book preview 02"
                     loading="lazy"
                     className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                   />
-                  <div className="absolute top-2 left-2 bg-on-tertiary-container/90 text-on-tertiary px-2 py-0.5 font-label-technical text-[10px] uppercase tracking-wider">
-                    08 // Inspections
-                  </div>
-                </div>
-                <div className="p-3">
-                  <h4 className="font-title text-xs sm:text-sm font-bold uppercase text-on-surface group-hover:text-primary transition-colors line-clamp-1">
-                    Drainage Culvert Rebar QA
-                  </h4>
-                  <p className="font-label-technical text-[11px] text-secondary uppercase mt-0.5">
-                    Y25 High-Yield Reinforcement Check
-                  </p>
                 </div>
               </Link>
 
@@ -362,21 +340,10 @@ export function HomePage() {
                 <div className="relative aspect-[16/10] overflow-hidden bg-surface-container">
                   <img
                     src="/assets/gallery/thumbs/project-site-12.webp"
-                    alt="Bridge Deck Continuous Monolithic Concrete Pour"
+                    alt="Gallery book preview 03"
                     loading="lazy"
                     className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                   />
-                  <div className="absolute top-2 left-2 bg-on-tertiary-container/90 text-on-tertiary px-2 py-0.5 font-label-technical text-[10px] uppercase tracking-wider">
-                    12 // Testing
-                  </div>
-                </div>
-                <div className="p-3">
-                  <h4 className="font-title text-xs sm:text-sm font-bold uppercase text-on-surface group-hover:text-primary transition-colors line-clamp-1">
-                    Monolithic Bridge Deck Pour
-                  </h4>
-                  <p className="font-label-technical text-[11px] text-secondary uppercase mt-0.5">
-                    Grade C35/45 Ready-Mix QA
-                  </p>
                 </div>
               </Link>
             </div>
