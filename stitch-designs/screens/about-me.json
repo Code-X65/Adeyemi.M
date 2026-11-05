@@ -1,0 +1,362 @@
+{
+  "screenshot": {
+    "name": "projects/18221639415710694189/screens/f0ce4c09a1b5408a895755f8b35325c2/fileEntries/screenshot",
+    "downloadUrl": "https://stitch.googleapis.com/v1/projects/18221639415710694189/files/screenshot_00065f8062b9ee1903b183144f147eb4:download",
+    "mimeType": "image/png"
+  },
+  "htmlCode": {
+    "name": "projects/18221639415710694189/screens/f0ce4c09a1b5408a895755f8b35325c2/fileEntries/html",
+    "downloadUrl": "https://stitch.googleapis.com/v1/projects/18221639415710694189/files/f0ce4c09a1b5408a895755f8b35325c2:download",
+    "mimeType": "text/html"
+  },
+  "id": "f0ce4c09a1b5408a895755f8b35325c2",
+  "generatedBy": "figaro_agent",
+  "width": "2560",
+  "height": "5528",
+  "title": "About Me — Adeyemi Idowu Modupeola",
+  "prompt": "Screen 02: About Me — Civil Engineer Portfolio for Adeyemi Idowu Modupeola.\n\nAdhere strictly to all specified content, sections, guidelines and negative constraints:\n\nVisual Style & Palette:\n- Combination of Modern Minimalism, Subtle Neo-Brutalism, and Clean Corporate Web Design.\n- Color Palette: Limestone (#F3F1EB) for page/surface, White (#FFFFFF) for cards, Graphite (#202B32) for typography and solid surfaces, Safety Orange (#D97736) for focused accents, Steel Grey (#78848A), Concrete Grey (#DCDAD3) for crisp borders.\n- Typography: Headings in Manrope (bold, clean), Body and supporting copy in Inter.\n- Strict restrictions: No slash-based headings or labels, no unnecessary section numbering (do not write '01', '02', 'Section 1'), no terminal-inspired visual elements, no excessive geometric decorations, no oversized floating shapes, no glassmorphism, no excessive gradients, no exaggerated rounded corners (use sharp or gentle rounded-sm/rounded-none rectangular cards with 1px border border-[#DCDAD3]), no generic SaaS dashboard aesthetics, no invented stats or credentials.\n\nSection Breakdown:\n\n1. About Introduction:\n- Centered container with balanced two-column layout.\n- Left column:\n  - Clear heading: \"About Me\" (Manrope, bold, graphite #202B32, text-3xl or 4xl).\n  - Supporting headline: \"Building quality through engineering knowledge and practical experience.\" (Manrope, text-xl font-medium text-[#202B32] border-l-2 border-[#D97736] pl-4 my-4).\n  - Professional introduction verbatim paragraphs:\n    \"I am a Civil Engineer with hands-on experience in construction quality assurance and quality control, site inspections, materials testing and construction coordination.\"\n    \"My professional responsibilities include supporting construction operations, monitoring compliance with engineering specifications, identifying quality issues and collaborating with project managers, engineers and subcontractors to maintain construction standards.\"\n    \"I value precision, teamwork, accountability and continuous improvement throughout the construction process.\"\n- Right column:\n  - Authentic construction engineering site inspection photograph using {{DATA:IMAGE:IMAGE_1}}.\n  - Frame with subtle rectangular border, clean caption underneath: \"Construction site inspection and quality compliance review\".\n\n2. Education:\n- Heading: \"Education\"\n- Two clean rectangular information blocks/cards side by side:\n  - Card 1:\n    - Degree: \"Bachelor of Technology\"\n    - Discipline: \"Civil Engineering\"\n    - Institution: \"Ladoke University of Technology, Oyo State.\"\n  - Card 2:\n    - Degree: \"Master's Degree\"\n    - Discipline: \"Project Management\"\n    - Status: \"Status: Ongoing\" (subtle safety orange badge or indicator).\n- Simple rectangular cards with subtle border (#DCDAD3), white background, restrained orange accents. Do NOT invent dates or honours.\n\n3. Core Expertise (Professional Capabilities):\n- Section heading: \"Professional Capabilities\"\n- Clean responsive 3-column grid (or 2-row x 3-col) of 6 simple text-based cards with subtle 1px border (#DCDAD3) and white background:\n  1. \"Quality Assurance and Quality Control\" — \"Construction quality planning, inspections and compliance monitoring.\"\n  2. \"Construction Site Supervision\" — \"Monitoring site activities and supporting construction operations.\"\n  3. \"Materials Testing and Inspection\" — \"Inspecting and testing construction materials to verify compliance with specifications.\"\n  4. \"Structural Design and Analysis\" — \"Technical knowledge of structural design and engineering analysis.\"\n  5. \"Project Coordination\" — \"Coordinating construction activities with engineers, project managers and subcontractors.\"\n  6. \"Technical Documentation\" — \"Construction documentation, quality records and reporting.\"\n- Subtle top border accent with safety orange (#D97736) on hover or crisp indicator.\n\n4. Professional Approach (How I Approach Engineering):\n- Section heading: \"How I Approach Engineering\"\n- 4 principles in a clean horizontal 4-column layout on desktop:\n  1. \"Precision\" — \"Paying attention to technical details and engineering specifications.\"\n  2. \"Quality\" — \"Maintaining construction standards through inspection and quality control.\"\n  3. \"Collaboration\" — \"Working effectively with multidisciplinary construction teams.\"\n  4. \"Improvement\" — \"Identifying issues and supporting practical corrective actions.\"\n- Clean white rectangular cards with crisp borders and bold Manrope title.\n\n5. Professional Affiliations:\n- Section heading: \"Professional Affiliations\"\n- Display exactly the two affiliations in clean, understated badges/cards:\n  - \"Nigeria Society of Engineers\"\n  - \"Council of Registered Engineers\"\n- Simple, dignified corporate presentation. Do NOT imply chartered status or unconfirmed registration.\n\n6. Closing Call-to-Action Section:\n- Graphite background (#202B32) with crisp white text.\n- Heading: \"Let's build with quality and confidence.\"\n- Supporting text: \"Explore my professional experience and learn more about my engineering background.\"\n- Action buttons:\n  - Primary button: \"View Experience\" (Safety orange #D97736 background, white text, rectangular with crisp transition).\n  - Secondary button: \"Download CV\" (Transparent background with 1px border in #DCDAD3 or white/concrete grey, white text).\n- Subtle safety orange line or accent.\n## Available Images\nYou MUST include the following images in this design. You must reference them\nby putting their exact placeholder IDs in `src` attributes or CSS\n`background-image` rules. Do NOT use external URLs or generate new\nplaceholders. Preserve these IDs exactly as written. Read each image's\nDescription to understand its subject, intended section, and visual role.\n\n- {{DATA:IMAGE:IMAGE_1}}\n  Alt Text: Authentic professional construction engineering site inspection photograph, female engineer in white hardhat and high-visibility safety vest from behind or side angle reviewing structural architectural drawings and blueprints on a construction site with reinforced concrete pillars and scaffolding in clean daylight, realistic documentary style.\n  Description: Authentic professional construction engineering site inspection photograph, female engineer in white hardhat and high-visibility safety vest from behind or side angle reviewing structural architectural drawings and blueprints on a construction site with reinforced concrete pillars and scaffolding in clean daylight, realistic documentary style.\n  Dimensions: 1200x896\n  Aspect Ratio: 1.34\n",
+  "name": "projects/18221639415710694189/screens/f0ce4c09a1b5408a895755f8b35325c2",
+  "theme": {
+    "colorMode": "LIGHT",
+    "font": "MANROPE",
+    "customColor": "#d97736",
+    "headlineFont": "MANROPE",
+    "bodyFont": "INTER",
+    "labelFont": "INTER",
+    "namedColors": {
+      "secondary_fixed_dim": "#bcc8d1",
+      "surface_container_highest": "#e4e2dc",
+      "on_error_container": "#93000a",
+      "secondary": "#556068",
+      "on_secondary_fixed_variant": "#3d4850",
+      "surface_container": "#f0eee8",
+      "on_secondary_container": "#59646c",
+      "surface_tint": "#994703",
+      "background": "#fbf9f3",
+      "on_background": "#1b1c18",
+      "on_primary": "#ffffff",
+      "on_tertiary_container": "#202c31",
+      "on_surface": "#1b1c18",
+      "outline": "#887367",
+      "on_tertiary": "#ffffff",
+      "primary_fixed_dim": "#ffb68c",
+      "surface_container_lowest": "#ffffff",
+      "outline_variant": "#dbc1b4",
+      "tertiary_container": "#879399",
+      "surface_variant": "#e4e2dc",
+      "on_tertiary_fixed": "#121d22",
+      "on_primary_container": "#491d00",
+      "tertiary_fixed": "#d8e4eb",
+      "secondary_container": "#d5e1eb",
+      "on_tertiary_fixed_variant": "#3d484e",
+      "on_secondary": "#ffffff",
+      "on_surface_variant": "#554339",
+      "on_error": "#ffffff",
+      "inverse_on_surface": "#f3f1eb",
+      "secondary_fixed": "#d8e4ed",
+      "surface": "#fbf9f3",
+      "surface_container_high": "#eae8e2",
+      "primary_fixed": "#ffdbc9",
+      "tertiary_fixed_dim": "#bcc8cf",
+      "primary": "#994703",
+      "primary_container": "#d97736",
+      "inverse_primary": "#ffb68c",
+      "surface_bright": "#fbf9f3",
+      "on_primary_fixed_variant": "#753400",
+      "surface_container_low": "#f5f3ed",
+      "inverse_surface": "#30312d",
+      "error_container": "#ffdad6",
+      "on_primary_fixed": "#321200",
+      "tertiary": "#546066",
+      "on_secondary_fixed": "#121d24",
+      "error": "#ba1a1a",
+      "surface_dim": "#dcdad4"
+    },
+    "colorVariant": "FIDELITY",
+    "overridePrimaryColor": "#d97736",
+    "overrideSecondaryColor": "#202b32",
+    "overrideTertiaryColor": "#78848a",
+    "overrideNeutralColor": "#f3f1eb",
+    "spacingScale": 2,
+    "typography": {
+      "display": {
+        "fontFamily": "Manrope",
+        "fontSize": "56px",
+        "fontWeight": "800",
+        "lineHeight": "64px",
+        "letterSpacing": "-0.03em"
+      },
+      "body-lg": {
+        "fontFamily": "Inter",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "lineHeight": "28px",
+        "letterSpacing": "-0.005em"
+      },
+      "headline-md": {
+        "fontFamily": "Manrope",
+        "fontSize": "28px",
+        "fontWeight": "700",
+        "lineHeight": "36px",
+        "letterSpacing": "-0.015em"
+      },
+      "label-technical": {
+        "fontFamily": "Inter",
+        "fontSize": "11px",
+        "fontWeight": "600",
+        "lineHeight": "16px",
+        "letterSpacing": "0.08em"
+      },
+      "body-sm": {
+        "fontFamily": "Inter",
+        "fontSize": "13px",
+        "fontWeight": "400",
+        "lineHeight": "20px",
+        "letterSpacing": "0em"
+      },
+      "headline-sm": {
+        "fontFamily": "Manrope",
+        "fontSize": "22px",
+        "fontWeight": "600",
+        "lineHeight": "30px",
+        "letterSpacing": "-0.01em"
+      },
+      "display-mobile": {
+        "fontFamily": "Manrope",
+        "fontSize": "36px",
+        "fontWeight": "800",
+        "lineHeight": "44px",
+        "letterSpacing": "-0.02em"
+      },
+      "headline-lg": {
+        "fontFamily": "Manrope",
+        "fontSize": "40px",
+        "fontWeight": "700",
+        "lineHeight": "48px",
+        "letterSpacing": "-0.02em"
+      },
+      "body-md": {
+        "fontFamily": "Inter",
+        "fontSize": "15px",
+        "fontWeight": "400",
+        "lineHeight": "24px",
+        "letterSpacing": "0em"
+      },
+      "title": {
+        "fontFamily": "Manrope",
+        "fontSize": "18px",
+        "fontWeight": "600",
+        "lineHeight": "26px",
+        "letterSpacing": "-0.005em"
+      },
+      "headline-lg-mobile": {
+        "fontFamily": "Manrope",
+        "fontSize": "28px",
+        "fontWeight": "700",
+        "lineHeight": "36px",
+        "letterSpacing": "-0.01em"
+      },
+      "label-lg": {
+        "fontFamily": "Inter",
+        "fontSize": "14px",
+        "fontWeight": "600",
+        "lineHeight": "20px",
+        "letterSpacing": "0.02em"
+      }
+    },
+    "spacing": {
+      "space-sm": "0.5rem",
+      "margin": "3rem",
+      "space-md": "1rem",
+      "space-xl": "2.5rem",
+      "gutter-mobile": "1rem",
+      "gutter": "1.5rem",
+      "space-lg": "1.5rem",
+      "margin-tablet": "2rem",
+      "space-xs": "0.25rem",
+      "margin-mobile": "1.25rem"
+    },
+    "headlineFontFamily": "Manrope",
+    "bodyFontFamily": "Inter",
+    "labelFontFamily": "Inter"
+  },
+  "deviceType": "DESKTOP",
+  "screenType": "DESIGN",
+  "screenMetadata": {
+    "agentType": "PRO_AGENT",
+    "status": "COMPLETE"
+  },
+  "designSystem": {
+    "name": "assets/527053cf67a24b12b93f573d9fbf7faf",
+    "designSystem": {
+      "displayName": "Adeyemi Idowu Modupeola Portfolio System",
+      "styleGuidelines": "## Brand & Style\n\nThis design system establishes a high-precision, structural identity for the civil engineering portfolio of Adeyemi Idowu Modupeola. The visual narrative combines modern minimalism, subtle neo-brutalism, and clean corporate refinement. It draws inspiration from technical blueprints, cast-in-place concrete structures, and architectural construction documentation.\n\n### Core Character & Audience\n- **Target Audience:** Infrastructure developers, municipal project managers, institutional engineering consultancies, structural evaluation boards, and architectural partners.\n- **Brand Personality:** Authoritative, methodical, structural, and unequivocally reliable.\n- **Emotional Response:** A sense of calculated stability, functional rigor, and disciplined craftsmanship.\n\n### Aesthetic Execution\n- **Subtle Neo-Brutalism & Modern Minimalism:** The interface utilizes strict modular zoning, precise line-based structural frames, visible geometric bounds, and disciplined whitespace.\n- **Materiality Without Skeuomorphism:** Instead of literal textures or terminal-themed kitsch, the layout conveys materiality through a calibrated substrate of limestone, concrete, and graphite.\n- **Deliberate Restraint:** Absolute avoidance of glassmorphic blurs, organic blobs, decorative drop shadows, or gratuitous multi-stop gradients. Structural clarity takes precedence over ornament.\n\n## Layout & Spacing\n\nThe layout is built upon an architectural grid, emphasizing structural division and planar alignment over fluid, indeterminate spacing.\n\n### Grid Architecture\n- **Desktop (12 Columns):** Content conforms to a 12-column layout with fixed max-width constraints (1320px). Gutters are locked at `1.5rem` (`24px`).\n- **Tablet (8 Columns):** Breakpoint at 768px – 1024px. Margins reduce to `2rem`, gutters maintain `1.5rem`.\n- **Mobile (4 Columns):** Breakpoint below 768px. Margins collapse to `1.25rem` (`20px`) with `1rem` (`16px`) gutters.\n\n### Layout Model\n- **Structural Planarity:** Sections are organized using rectangular blocks bounded by 1px solid dividers in Concrete Grey (`#DCDAD3`).\n- **Data Densities:** Engineering case studies utilize modular 2-column or 3-column splits with fixed-ratio metric callout boxes.\n- **Rhythm:** Macro vertical spacing adheres to multiples of `1.5rem` (`space-lg`) and `2.5rem` (`space-xl`), ensuring visual cadence across prolonged case studies.\n\n## Elevation & Depth\n\nThis design system rejects blurred multi-layer dropshadows and pseudo-glassmorphic refractions. Elevation is expressed strictly through structural outlines, tonal contrast, and rigid physical offset.\n\n### Hierarchy Techniques\n1. **Low-Contrast Structural Linework:** Primary depth is produced via crisp 1px borders using Concrete Grey (`#DCDAD3`) on Limestone (`#F3F1EB`) canvas, delineating distinct mechanical compartments.\n2. **Tonal Slabs:** Surfaces rise through explicit fill transitions: Canvas (`#F3F1EB`) to Elevated Panel (`#FFFFFF`) to Inverted Structural Blocks (`#202B32`).\n3. **Hard Neo-Brutal Offset (Interactive Elevation):**\n   - For primary interactive components (e.g., active cards or primary call-to-action buttons), elevation on hover is achieved via a crisp, zero-blur offset shadow:\n   - `box-shadow: 3px 3px 0px 0px #202B32;`\n   - Active press states collapse this offset: `translate(2px, 2px)` with `box-shadow: 1px 1px 0px 0px #202B32;`.\n4. **Zoning Seams:** Grid lines are exposed deliberately as visual seam elements, reinforcing the drafting table aesthetic.\n\n## Components\n\n### Buttons\n- **Primary Button:** Solid Graphite (`#202B32`) background, Pure White (`#FFFFFF`) text, 0px border-radius, 1px solid Graphite border. On hover: shifts background to Safety Orange (`#D97736`) with a 3px hard offset shadow (`box-shadow: 3px 3px 0px #202B32`). Active state presses inward.\n- **Secondary Button:** Pure White (`#FFFFFF`) background, Graphite (`#202B32`) text, 1px solid Concrete Grey (`#DCDAD3`) border. On hover: border switches to Graphite (`#202B32`) with a subtle 2px hard offset shadow.\n- **Ghost / Technical Action:** Transparent background, Graphite text, right-aligned accent arrow or coordinate glyph in Safety Orange (`#D97736`).\n\n### Cards & Project Dossiers\n- **Structure:** Crisp rectangular containers with `#FFFFFF` background, wrapped in a 1px `#DCDAD3` border.\n- **Engineering Spec Bar:** Cards feature an integrated top or bottom technical bar styled with `label-technical` text, carrying project location, structural classification, and completion year.\n- **Hover Behavior:** 1px border shifts from `#DCDAD3` to `#202B32`, supported by a clean 4px by 4px hard neo-brutal offset shadow in `#202B32`.\n\n### Chips & Badges\n- **Specification Chips:** Rectangular, `#F3F1EB` background, 1px solid `#DCDAD3` border, Steel Grey (`#78848A`) uppercase text (`11px`).\n- **Status Indicator Badges:** E.g., \"UNDER CONSTRUCTION\" or \"STRUCTURAL DESIGN AUDIT COMPLETED\". Graphite `#202B32` text with a 6px square indicator pip filled in Safety Orange (`#D97736`).\n\n### Form Fields & Inputs\n- **Text Inputs:** Sharp-cornered `#FFFFFF` surface, 1px solid `#DCDAD3` perimeter, Inter typography. Labels are set in `label-technical` (`#78848A`), positioned directly above the input box.\n- **Focus State:** 1px solid `#D97736` border with a 2px hard accent shadow outline. No browser-default fuzzy halos.\n\n### Checkboxes & Radio Elements\n- **Checkboxes:** Pure square boxes (`18px x 18px`), `#FFFFFF` surface, 1.5px solid `#202B32` border. Checked state renders a solid `#D97736` interior block with a sharp white checkmark.\n- **Radio Buttons:** Square outer housing containing an inner sharp square pip when selected, reinforcing the non-curved visual rule.\n\n### Lists & Technical Data Tables\n- **Engineering Metric Lists:** Alternate between `#FFFFFF` and `#F3F1EB` zebra bands, partitioned by 1px solid `#DCDAD3` horizontal dividers.\n- **Spec Columns:** Values are aligned tabularly with numbers rendered in Manrope bold, accompanied by engineering units (kN/m², m³, MPa) in Steel Grey (`#78848A`).\n\n### Domain-Specific Components\n- **Structural Metric Billboard:** A multi-cell grid display showcasing key statistics (e.g., \"14,800 m³ Concrete Supervised\", \"340 m Bridge Span\", \"Zero Safety Failures\") bounded by high-contrast Graphite framing lines.\n- **Blueprint Drawing Drawer:** Expandable technical accordions framed with crisp 1px borders, incorporating technical revision stamps in `#D97736`.",
+      "theme": {
+        "colorMode": "LIGHT",
+        "font": "MANROPE",
+        "customColor": "#d97736",
+        "headlineFont": "MANROPE",
+        "bodyFont": "INTER",
+        "labelFont": "INTER",
+        "namedColors": {
+          "on_error": "#ffffff",
+          "surface_bright": "#fbf9f3",
+          "on_secondary_fixed": "#121d24",
+          "surface_container_high": "#eae8e2",
+          "surface_tint": "#994703",
+          "surface_variant": "#e4e2dc",
+          "primary_container": "#d97736",
+          "outline_variant": "#dbc1b4",
+          "secondary": "#556068",
+          "on_primary_container": "#491d00",
+          "on_background": "#1b1c18",
+          "on_tertiary": "#ffffff",
+          "surface_container_lowest": "#ffffff",
+          "tertiary_fixed_dim": "#bcc8cf",
+          "outline": "#887367",
+          "on_surface_variant": "#554339",
+          "inverse_on_surface": "#f3f1eb",
+          "on_secondary_fixed_variant": "#3d4850",
+          "surface_container_low": "#f5f3ed",
+          "tertiary": "#546066",
+          "on_tertiary_fixed_variant": "#3d484e",
+          "on_surface": "#1b1c18",
+          "inverse_surface": "#30312d",
+          "tertiary_container": "#879399",
+          "surface_container": "#f0eee8",
+          "primary": "#994703",
+          "on_primary_fixed": "#321200",
+          "on_tertiary_container": "#202c31",
+          "on_secondary": "#ffffff",
+          "tertiary_fixed": "#d8e4eb",
+          "on_secondary_container": "#59646c",
+          "surface": "#fbf9f3",
+          "error": "#ba1a1a",
+          "secondary_container": "#d5e1eb",
+          "error_container": "#ffdad6",
+          "secondary_fixed": "#d8e4ed",
+          "secondary_fixed_dim": "#bcc8d1",
+          "primary_fixed": "#ffdbc9",
+          "inverse_primary": "#ffb68c",
+          "background": "#fbf9f3",
+          "on_primary_fixed_variant": "#753400",
+          "on_primary": "#ffffff",
+          "primary_fixed_dim": "#ffb68c",
+          "surface_dim": "#dcdad4",
+          "on_tertiary_fixed": "#121d22",
+          "on_error_container": "#93000a",
+          "surface_container_highest": "#e4e2dc"
+        },
+        "designMd": "---\nname: Adeyemi Idowu Modupeola Portfolio System\ncolors:\n  surface: '#fbf9f3'\n  surface-dim: '#dcdad4'\n  surface-bright: '#fbf9f3'\n  surface-container-lowest: '#ffffff'\n  surface-container-low: '#f5f3ed'\n  surface-container: '#f0eee8'\n  surface-container-high: '#eae8e2'\n  surface-container-highest: '#e4e2dc'\n  on-surface: '#1b1c18'\n  on-surface-variant: '#554339'\n  inverse-surface: '#30312d'\n  inverse-on-surface: '#f3f1eb'\n  outline: '#887367'\n  outline-variant: '#dbc1b4'\n  surface-tint: '#994703'\n  primary: '#994703'\n  on-primary: '#ffffff'\n  primary-container: '#d97736'\n  on-primary-container: '#491d00'\n  inverse-primary: '#ffb68c'\n  secondary: '#556068'\n  on-secondary: '#ffffff'\n  secondary-container: '#d5e1eb'\n  on-secondary-container: '#59646c'\n  tertiary: '#546066'\n  on-tertiary: '#ffffff'\n  tertiary-container: '#879399'\n  on-tertiary-container: '#202c31'\n  error: '#ba1a1a'\n  on-error: '#ffffff'\n  error-container: '#ffdad6'\n  on-error-container: '#93000a'\n  primary-fixed: '#ffdbc9'\n  primary-fixed-dim: '#ffb68c'\n  on-primary-fixed: '#321200'\n  on-primary-fixed-variant: '#753400'\n  secondary-fixed: '#d8e4ed'\n  secondary-fixed-dim: '#bcc8d1'\n  on-secondary-fixed: '#121d24'\n  on-secondary-fixed-variant: '#3d4850'\n  tertiary-fixed: '#d8e4eb'\n  tertiary-fixed-dim: '#bcc8cf'\n  on-tertiary-fixed: '#121d22'\n  on-tertiary-fixed-variant: '#3d484e'\n  background: '#fbf9f3'\n  on-background: '#1b1c18'\n  surface-variant: '#e4e2dc'\ntypography:\n  display:\n    fontFamily: Manrope\n    fontSize: 56px\n    fontWeight: '800'\n    lineHeight: 64px\n    letterSpacing: -0.03em\n  display-mobile:\n    fontFamily: Manrope\n    fontSize: 36px\n    fontWeight: '800'\n    lineHeight: 44px\n    letterSpacing: -0.02em\n  headline-lg:\n    fontFamily: Manrope\n    fontSize: 40px\n    fontWeight: '700'\n    lineHeight: 48px\n    letterSpacing: -0.02em\n  headline-lg-mobile:\n    fontFamily: Manrope\n    fontSize: 28px\n    fontWeight: '700'\n    lineHeight: 36px\n    letterSpacing: -0.01em\n  headline-md:\n    fontFamily: Manrope\n    fontSize: 28px\n    fontWeight: '700'\n    lineHeight: 36px\n    letterSpacing: -0.015em\n  headline-sm:\n    fontFamily: Manrope\n    fontSize: 22px\n    fontWeight: '600'\n    lineHeight: 30px\n    letterSpacing: -0.01em\n  title:\n    fontFamily: Manrope\n    fontSize: 18px\n    fontWeight: '600'\n    lineHeight: 26px\n    letterSpacing: -0.005em\n  body-lg:\n    fontFamily: Inter\n    fontSize: 18px\n    fontWeight: '400'\n    lineHeight: 28px\n    letterSpacing: -0.005em\n  body-md:\n    fontFamily: Inter\n    fontSize: 15px\n    fontWeight: '400'\n    lineHeight: 24px\n    letterSpacing: 0em\n  body-sm:\n    fontFamily: Inter\n    fontSize: 13px\n    fontWeight: '400'\n    lineHeight: 20px\n    letterSpacing: 0em\n  label-lg:\n    fontFamily: Inter\n    fontSize: 14px\n    fontWeight: '600'\n    lineHeight: 20px\n    letterSpacing: 0.02em\n  label-technical:\n    fontFamily: Inter\n    fontSize: 11px\n    fontWeight: '600'\n    lineHeight: 16px\n    letterSpacing: 0.08em\nspacing:\n  gutter: 1.5rem\n  gutter-mobile: 1rem\n  margin: 3rem\n  margin-mobile: 1.25rem\n  margin-tablet: 2rem\n  space-xs: 0.25rem\n  space-sm: 0.5rem\n  space-md: 1rem\n  space-lg: 1.5rem\n  space-xl: 2.5rem\n---\n\n## Brand & Style\n\nThis design system establishes a high-precision, structural identity for the civil engineering portfolio of Adeyemi Idowu Modupeola. The visual narrative combines modern minimalism, subtle neo-brutalism, and clean corporate refinement. It draws inspiration from technical blueprints, cast-in-place concrete structures, and architectural construction documentation.\n\n### Core Character & Audience\n- **Target Audience:** Infrastructure developers, municipal project managers, institutional engineering consultancies, structural evaluation boards, and architectural partners.\n- **Brand Personality:** Authoritative, methodical, structural, and unequivocally reliable.\n- **Emotional Response:** A sense of calculated stability, functional rigor, and disciplined craftsmanship.\n\n### Aesthetic Execution\n- **Subtle Neo-Brutalism & Modern Minimalism:** The interface utilizes strict modular zoning, precise line-based structural frames, visible geometric bounds, and disciplined whitespace.\n- **Materiality Without Skeuomorphism:** Instead of literal textures or terminal-themed kitsch, the layout conveys materiality through a calibrated substrate of limestone, concrete, and graphite.\n- **Deliberate Restraint:** Absolute avoidance of glassmorphic blurs, organic blobs, decorative drop shadows, or gratuitous multi-stop gradients. Structural clarity takes precedence over ornament.\n\n## Colors\n\nThe palette directly references architectural construction sites and materials: engineered earth, structural steel, exposed concrete, and industrial safety markers.\n\n### Palette Architecture\n- **Primary Accent (`#D97736` — Safety Orange):** Used strictly as a functional focal point—interactive states, key status markers, technical callouts, and critical navigation landmarks. It must be deployed with structural discipline and never as dominant surface wash.\n- **Secondary (`#202B32` — Graphite):** The primary structural anchor. Deployed for high-contrast headers, dark informational slabs, technical framing borders, and robust structural containers.\n- **Tertiary (`#78848A` — Steel Grey):** Serves technical metadata roles: CAD coordinate styling, datum lines, secondary labels, dimension indicators, and disabled states.\n- **Neutral Canvas (`#F3F1EB` — Limestone):** The base atmospheric substrate. Replaces pure white across macro canvases to reduce digital glare and evoke high-grade architectural drafting paper.\n- **Surface Elevation (`#FFFFFF` — Pure White):** Used for foreground structural cards, content panels, and field inputs resting on the limestone ground.\n- **Structural Boundary (`#DCDAD3` — Concrete Grey):** Serves as the standard structural border token, creating crisp, physical grid separations without visual clutter.\n\n### Semantic Mapping\n- **Canvas Background:** `#F3F1EB`\n- **Surface Level 1 (Card/Container):** `#FFFFFF`\n- **Surface Level 2 (Inset/Meta Panel):** `#F3F1EB`\n- **Surface Level 3 (Contrast Block):** `#202B32` (with `#FFFFFF` text)\n- **Border Default:** `#DCDAD3`\n- **Border Strong / Accent Framing:** `#202B32`\n- **Border Active / Focus:** `#D97736`\n- **Text Dominant:** `#202B32`\n- **Text Muted:** `#78848A`\n- **Interactive Highlight:** `#D97736`\n\n## Typography\n\nThe typographic hierarchy establishes clear structural ordering through a rigorous two-tier pairing.\n\n### Type Pairings\n- **Headlines (Manrope):** Geometric, precise, modern, and structural. Used for section headers, metric figures, and project titles. The bold weights (`700`, `800`) provide architectural presence and anchor layouts securely.\n- **Body & Supporting (Inter):** Highly legible, neutral, and systematic. Inter handles technical project descriptions, engineering specifications, field journals, and data tables with neutral clarity.\n\n### Technical & Dimension Labels\nThe token `label-technical` is rendered in uppercase with wide letter tracking (`0.08em`) to denote project metadata, structural load indexes, status indicators, coordinates, and CAD sheet numbers.\n\n## Layout & Spacing\n\nThe layout is built upon an architectural grid, emphasizing structural division and planar alignment over fluid, indeterminate spacing.\n\n### Grid Architecture\n- **Desktop (12 Columns):** Content conforms to a 12-column layout with fixed max-width constraints (1320px). Gutters are locked at `1.5rem` (`24px`).\n- **Tablet (8 Columns):** Breakpoint at 768px – 1024px. Margins reduce to `2rem`, gutters maintain `1.5rem`.\n- **Mobile (4 Columns):** Breakpoint below 768px. Margins collapse to `1.25rem` (`20px`) with `1rem` (`16px`) gutters.\n\n### Layout Model\n- **Structural Planarity:** Sections are organized using rectangular blocks bounded by 1px solid dividers in Concrete Grey (`#DCDAD3`).\n- **Data Densities:** Engineering case studies utilize modular 2-column or 3-column splits with fixed-ratio metric callout boxes.\n- **Rhythm:** Macro vertical spacing adheres to multiples of `1.5rem` (`space-lg`) and `2.5rem` (`space-xl`), ensuring visual cadence across prolonged case studies.\n\n## Elevation & Depth\n\nThis design system rejects blurred multi-layer dropshadows and pseudo-glassmorphic refractions. Elevation is expressed strictly through structural outlines, tonal contrast, and rigid physical offset.\n\n### Hierarchy Techniques\n1. **Low-Contrast Structural Linework:** Primary depth is produced via crisp 1px borders using Concrete Grey (`#DCDAD3`) on Limestone (`#F3F1EB`) canvas, delineating distinct mechanical compartments.\n2. **Tonal Slabs:** Surfaces rise through explicit fill transitions: Canvas (`#F3F1EB`) to Elevated Panel (`#FFFFFF`) to Inverted Structural Blocks (`#202B32`).\n3. **Hard Neo-Brutal Offset (Interactive Elevation):**\n   - For primary interactive components (e.g., active cards or primary call-to-action buttons), elevation on hover is achieved via a crisp, zero-blur offset shadow:\n   - `box-shadow: 3px 3px 0px 0px #202B32;`\n   - Active press states collapse this offset: `translate(2px, 2px)` with `box-shadow: 1px 1px 0px 0px #202B32;`.\n4. **Zoning Seams:** Grid lines are exposed deliberately as visual seam elements, reinforcing the drafting table aesthetic.\n\n## Shapes\n\nThe shape system is strictly **Sharp (`0`)**. \n\nAll visual elements—including buttons, project cards, metric panels, inputs, chips, and modals—are defined with `0px` border-radius.\n\n### Rationale & Rules\n- **Structural Integrity:** In civil engineering, structural drafting relies on precise geometric angles, perpendiculars, and straight planar cuts. Rounded corners undermine this visual precision.\n- **Consistent Edge Treatment:** Zero rounding applies universally to form elements, container frames, image containers, badges, and progress meters.\n- **Sub-element Detailing:** Corner brackets or diagonal corner notches (via CSS clip-path or pseudo-elements) may be used sparingly as technical drafting marks on hero project headers, but border radii remain `0`.\n\n## Components\n\n### Buttons\n- **Primary Button:** Solid Graphite (`#202B32`) background, Pure White (`#FFFFFF`) text, 0px border-radius, 1px solid Graphite border. On hover: shifts background to Safety Orange (`#D97736`) with a 3px hard offset shadow (`box-shadow: 3px 3px 0px #202B32`). Active state presses inward.\n- **Secondary Button:** Pure White (`#FFFFFF`) background, Graphite (`#202B32`) text, 1px solid Concrete Grey (`#DCDAD3`) border. On hover: border switches to Graphite (`#202B32`) with a subtle 2px hard offset shadow.\n- **Ghost / Technical Action:** Transparent background, Graphite text, right-aligned accent arrow or coordinate glyph in Safety Orange (`#D97736`).\n\n### Cards & Project Dossiers\n- **Structure:** Crisp rectangular containers with `#FFFFFF` background, wrapped in a 1px `#DCDAD3` border.\n- **Engineering Spec Bar:** Cards feature an integrated top or bottom technical bar styled with `label-technical` text, carrying project location, structural classification, and completion year.\n- **Hover Behavior:** 1px border shifts from `#DCDAD3` to `#202B32`, supported by a clean 4px by 4px hard neo-brutal offset shadow in `#202B32`.\n\n### Chips & Badges\n- **Specification Chips:** Rectangular, `#F3F1EB` background, 1px solid `#DCDAD3` border, Steel Grey (`#78848A`) uppercase text (`11px`).\n- **Status Indicator Badges:** E.g., \"UNDER CONSTRUCTION\" or \"STRUCTURAL DESIGN AUDIT COMPLETED\". Graphite `#202B32` text with a 6px square indicator pip filled in Safety Orange (`#D97736`).\n\n### Form Fields & Inputs\n- **Text Inputs:** Sharp-cornered `#FFFFFF` surface, 1px solid `#DCDAD3` perimeter, Inter typography. Labels are set in `label-technical` (`#78848A`), positioned directly above the input box.\n- **Focus State:** 1px solid `#D97736` border with a 2px hard accent shadow outline. No browser-default fuzzy halos.\n\n### Checkboxes & Radio Elements\n- **Checkboxes:** Pure square boxes (`18px x 18px`), `#FFFFFF` surface, 1.5px solid `#202B32` border. Checked state renders a solid `#D97736` interior block with a sharp white checkmark.\n- **Radio Buttons:** Square outer housing containing an inner sharp square pip when selected, reinforcing the non-curved visual rule.\n\n### Lists & Technical Data Tables\n- **Engineering Metric Lists:** Alternate between `#FFFFFF` and `#F3F1EB` zebra bands, partitioned by 1px solid `#DCDAD3` horizontal dividers.\n- **Spec Columns:** Values are aligned tabularly with numbers rendered in Manrope bold, accompanied by engineering units (kN/m², m³, MPa) in Steel Grey (`#78848A`).\n\n### Domain-Specific Components\n- **Structural Metric Billboard:** A multi-cell grid display showcasing key statistics (e.g., \"14,800 m³ Concrete Supervised\", \"340 m Bridge Span\", \"Zero Safety Failures\") bounded by high-contrast Graphite framing lines.\n- **Blueprint Drawing Drawer:** Expandable technical accordions framed with crisp 1px borders, incorporating technical revision stamps in `#D97736`.",
+        "colorVariant": "FIDELITY",
+        "overridePrimaryColor": "#d97736",
+        "overrideSecondaryColor": "#202b32",
+        "overrideTertiaryColor": "#78848a",
+        "overrideNeutralColor": "#f3f1eb",
+        "spacingScale": 2,
+        "typography": {
+          "body-sm": {
+            "fontFamily": "Inter",
+            "fontSize": "13px",
+            "fontWeight": "400",
+            "lineHeight": "20px",
+            "letterSpacing": "0em"
+          },
+          "headline-sm": {
+            "fontFamily": "Manrope",
+            "fontSize": "22px",
+            "fontWeight": "600",
+            "lineHeight": "30px",
+            "letterSpacing": "-0.01em"
+          },
+          "body-lg": {
+            "fontFamily": "Inter",
+            "fontSize": "18px",
+            "fontWeight": "400",
+            "lineHeight": "28px",
+            "letterSpacing": "-0.005em"
+          },
+          "display": {
+            "fontFamily": "Manrope",
+            "fontSize": "56px",
+            "fontWeight": "800",
+            "lineHeight": "64px",
+            "letterSpacing": "-0.03em"
+          },
+          "headline-lg": {
+            "fontFamily": "Manrope",
+            "fontSize": "40px",
+            "fontWeight": "700",
+            "lineHeight": "48px",
+            "letterSpacing": "-0.02em"
+          },
+          "title": {
+            "fontFamily": "Manrope",
+            "fontSize": "18px",
+            "fontWeight": "600",
+            "lineHeight": "26px",
+            "letterSpacing": "-0.005em"
+          },
+          "display-mobile": {
+            "fontFamily": "Manrope",
+            "fontSize": "36px",
+            "fontWeight": "800",
+            "lineHeight": "44px",
+            "letterSpacing": "-0.02em"
+          },
+          "label-technical": {
+            "fontFamily": "Inter",
+            "fontSize": "11px",
+            "fontWeight": "600",
+            "lineHeight": "16px",
+            "letterSpacing": "0.08em"
+          },
+          "headline-lg-mobile": {
+            "fontFamily": "Manrope",
+            "fontSize": "28px",
+            "fontWeight": "700",
+            "lineHeight": "36px",
+            "letterSpacing": "-0.01em"
+          },
+          "body-md": {
+            "fontFamily": "Inter",
+            "fontSize": "15px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "letterSpacing": "0em"
+          },
+          "label-lg": {
+            "fontFamily": "Inter",
+            "fontSize": "14px",
+            "fontWeight": "600",
+            "lineHeight": "20px",
+            "letterSpacing": "0.02em"
+          },
+          "headline-md": {
+            "fontFamily": "Manrope",
+            "fontSize": "28px",
+            "fontWeight": "700",
+            "lineHeight": "36px",
+            "letterSpacing": "-0.015em"
+          }
+        },
+        "spacing": {
+          "space-xl": "2.5rem",
+          "gutter": "1.5rem",
+          "space-sm": "0.5rem",
+          "space-md": "1rem",
+          "margin-mobile": "1.25rem",
+          "space-xs": "0.25rem",
+          "margin": "3rem",
+          "gutter-mobile": "1rem",
+          "margin-tablet": "2rem",
+          "space-lg": "1.5rem"
+        },
+        "headlineFontFamily": "Manrope",
+        "bodyFontFamily": "Inter",
+        "labelFontFamily": "Inter"
+      }
+    },
+    "version": "1"
+  }
+}
